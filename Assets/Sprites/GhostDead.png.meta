@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 891bf1ad1d90ac84a911c76778e77a9b
+guid: 1b3f6a8c3b767e147a0fd0d4208239c4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,505 +106,358 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GhostScared_0
+      name: GhostDead_0
       rect:
         serializedVersion: 2
         x: 40
-        y: 168
-        width: 48
-        height: 44
+        y: 167
+        width: 38
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcd66f52b4039454994b421001b896a8
-      internalID: -1039012137
+      spriteID: 39c30047a2be8c3489c03e9b96e2ccc3
+      internalID: -1715261628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostScared_1
+      name: GhostDead_1
       rect:
         serializedVersion: 2
-        x: 168
-        y: 168
-        width: 48
-        height: 44
+        x: 56
+        y: 208
+        width: 20
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03ac9317110d701468121d094a41cbae
-      internalID: -622336053
+      spriteID: 0b8e2d6176f82f544990fb18439d7ef0
+      internalID: -1272345337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostScared_2
+      name: GhostDead_2
       rect:
         serializedVersion: 2
-        x: 296
-        y: 168
-        width: 44
-        height: 44
+        x: 167
+        y: 167
+        width: 37
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9b198852308665499733c5913b754da
-      internalID: -1091254943
+      spriteID: 20cfee2ba15fb8d48a71e5b4aa37dd5b
+      internalID: 1529566754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostScared_3
+      name: GhostDead_3
       rect:
         serializedVersion: 2
-        x: 424
-        y: 168
-        width: 44
-        height: 44
+        x: 184
+        y: 208
+        width: 19
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c024b1708651f244aac54966edb6345a
-      internalID: 2126204328
+      spriteID: 556211ea35c54c9489b61a0c98ddb8a4
+      internalID: 1404237203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostScared_4
-      rect:
-        serializedVersion: 2
-        x: 556
-        y: 168
-        width: 36
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1d3597406249ef44b08c8689c4751f4
-      internalID: 438218991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GhostScared_5
-      rect:
-        serializedVersion: 2
-        x: 684
-        y: 168
-        width: 36
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec6885fb15d1b7e4da0a6c3a01f242df
-      internalID: -1131861810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GhostScared_6
-      rect:
-        serializedVersion: 2
-        x: 808
-        y: 168
-        width: 48
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7b19c580b4ffe64490787c213751a2e
-      internalID: 1797759219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GhostScared_7
-      rect:
-        serializedVersion: 2
-        x: 936
-        y: 168
-        width: 48
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab0e6fa7ceecca8479f5d53dc2e27d99
-      internalID: -1209193743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GhostScared_8
-      rect:
-        serializedVersion: 2
-        x: 1064
-        y: 168
-        width: 44
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6126a8bca60c2d489f412582d121134
-      internalID: -1672236092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GhostScared_9
-      rect:
-        serializedVersion: 2
-        x: 1192
-        y: 168
-        width: 44
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98c9120b52a0ac048b6798da77550530
-      internalID: 1284405759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GhostScared_10
-      rect:
-        serializedVersion: 2
-        x: 1324
-        y: 168
-        width: 36
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c450bc3658529cc45ad1d04ac4bb378f
-      internalID: -1523392660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GhostScared_11
-      rect:
-        serializedVersion: 2
-        x: 1452
-        y: 168
-        width: 36
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0553c5998e3263a4bad6ed448a159c26
-      internalID: 1312538559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GhostScared_12
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 40
-        width: 48
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5177d58fd24403548957f3c5ce84616d
-      internalID: -1214316824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GhostScared_13
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 40
-        width: 48
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 019c064e5111f17448a6b07e17519667
-      internalID: -1603319888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GhostScared_14
+      name: GhostDead_4
       rect:
         serializedVersion: 2
         x: 300
-        y: 40
-        width: 44
-        height: 44
+        y: 167
+        width: 35
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09cd6c19a3734ec44b1a3eacaefc9072
-      internalID: -1236768972
+      spriteID: 8389b20474b4aea40979e7c390711085
+      internalID: -1670122578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostScared_15
+      name: GhostDead_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 208
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad8a7e33b8dbc6498262736225dff66
+      internalID: -1399885486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostDead_6
       rect:
         serializedVersion: 2
         x: 428
-        y: 40
-        width: 44
-        height: 44
+        y: 167
+        width: 34
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 383e0f0b67f728f499b0a99f70d75d09
-      internalID: -747859405
+      spriteID: bcbf902e7c3b7ee4a847b97e88fdaf03
+      internalID: -855928846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostScared_16
+      name: GhostDead_7
       rect:
         serializedVersion: 2
-        x: 560
-        y: 40
-        width: 36
-        height: 44
+        x: 440
+        y: 208
+        width: 20
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f97e2b6452acd94c86c7dd0a5515fb0
-      internalID: 1626664152
+      spriteID: 3e8b007ec73fa44448c8e78a82b55500
+      internalID: -1086966953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostScared_17
+      name: GhostDead_9
       rect:
         serializedVersion: 2
-        x: 688
-        y: 40
-        width: 36
-        height: 44
+        x: 568
+        y: 208
+        width: 20
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e245c63c54718c94ab099abb8aa370f8
-      internalID: 1689565249
+      spriteID: cce946d2b854b5f40aa7749e39125603
+      internalID: 1609778524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostScared_18
+      name: GhostDead_10
       rect:
         serializedVersion: 2
-        x: 808
-        y: 40
-        width: 48
-        height: 44
+        x: 52
+        y: 80
+        width: 20
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98d871398ee8165418b7e5cb8a53b686
-      internalID: 547276848
+      spriteID: ae6d63b2844159c4a99abd66f48d77ea
+      internalID: 376008855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostScared_19
+      name: GhostDead_11
       rect:
         serializedVersion: 2
-        x: 936
-        y: 40
-        width: 48
-        height: 44
+        x: 49
+        y: 39
+        width: 39
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78a1a68a1341c744babeefeaa7738c2c
-      internalID: 147152079
+      spriteID: 0c4e0bbe2b617054b89288de26067dab
+      internalID: 728793775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostScared_20
+      name: GhostDead_12
       rect:
         serializedVersion: 2
-        x: 1068
-        y: 40
-        width: 44
-        height: 44
+        x: 180
+        y: 80
+        width: 20
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c0a516a3b95cbc43ab8526c49a83a10
-      internalID: -841379909
+      spriteID: 893217a31b8518c4594653515b228f54
+      internalID: -1916173995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostScared_21
+      name: GhostDead_13
       rect:
         serializedVersion: 2
-        x: 1196
-        y: 40
-        width: 44
-        height: 44
+        x: 179
+        y: 39
+        width: 37
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 193b109927e454e4997d1a643617a5fb
-      internalID: -784974895
+      spriteID: 4e8cda921e8e55947baa645257b705c8
+      internalID: 1996120187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostScared_22
+      name: GhostDead_14
       rect:
         serializedVersion: 2
-        x: 1328
-        y: 40
-        width: 36
-        height: 44
+        x: 308
+        y: 80
+        width: 20
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55ff16a4e2e1ce640b4a1a391d1aad72
-      internalID: 2047252662
+      spriteID: d996a2ee527337d4cbf5f90b200ddbce
+      internalID: -773910830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostScared_23
+      name: GhostDead_15
       rect:
         serializedVersion: 2
-        x: 1456
-        y: 40
-        width: 36
-        height: 44
+        x: 305
+        y: 38
+        width: 35
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb960c75bce965a43a40d3848c772fbc
-      internalID: 929464595
+      spriteID: c78dd1e1efa63c84887103253f047062
+      internalID: -1004495255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostDead_16
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 80
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449d80a4f2803aa4b96bdbb905c3985d
+      internalID: 1535724004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostDead_17
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 39
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150a7a30a27e44f43b86e31eb6645fe4
+      internalID: 116415859
       vertices: []
       indices: 
       edges: []
@@ -620,30 +473,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GhostScared_14: -1236768972
-      GhostScared_9: 1284405759
-      GhostScared_5: -1131861810
-      GhostScared_11: 1312538559
-      GhostScared_15: -747859405
-      GhostScared_16: 1626664152
-      GhostScared_6: 1797759219
-      GhostScared_2: -1091254943
-      GhostScared_7: -1209193743
-      GhostScared_20: -841379909
-      GhostScared_4: 438218991
-      GhostScared_21: -784974895
-      GhostScared_10: -1523392660
-      GhostScared_23: 929464595
-      GhostScared_0: -1039012137
-      GhostScared_19: 147152079
-      GhostScared_3: 2126204328
-      GhostScared_12: -1214316824
-      GhostScared_13: -1603319888
-      GhostScared_18: 547276848
-      GhostScared_17: 1689565249
-      GhostScared_8: -1672236092
-      GhostScared_22: 2047252662
-      GhostScared_1: -622336053
+      GhostDead_2: 1529566754
+      GhostDead_4: -1670122578
+      GhostDead_9: 1609778524
+      GhostDead_10: 376008855
+      GhostDead_1: -1272345337
+      GhostDead_0: -1715261628
+      GhostDead_3: 1404237203
+      GhostDead_7: -1086966953
+      GhostDead_14: -773910830
+      GhostDead_8: -611849392
+      GhostDead_17: 116415859
+      GhostDead_5: -1399885486
+      GhostDead_6: -855928846
+      GhostDead_16: 1535724004
+      GhostDead_15: -1004495255
+      GhostDead_12: -1916173995
+      GhostDead_11: 728793775
+      GhostDead_13: 1996120187
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

@@ -104,7 +104,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GhostNormalRed_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 168
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b070eb1438e4b04d85bcebeeb5cbbfd
+      internalID: -884531486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 168
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3e556d3daffff47883e80408425e22
+      internalID: -1369225898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 168
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9074da07e754ef4aa3877ef91c0055c
+      internalID: 1320751269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 168
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4b1368644828a4e9f99088712dec21
+      internalID: -255825415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 168
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657eba5fef9b9ee4fa7373eb8b621fce
+      internalID: 1380604283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_5
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 168
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd84ce4aa24e504790403e55c771728
+      internalID: -1635286082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_6
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 168
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1391110438f215a4485ef36cf44f4317
+      internalID: 2000003381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_7
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 168
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56100d4e50ccef046bc971dff189266b
+      internalID: -927654555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_8
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 168
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f19c484e214284690734183358b882
+      internalID: 2099304368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_9
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 168
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c9bda3be1386a47a30f738a1d1b04b
+      internalID: 947776761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_10
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 168
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e30f213ce2f5245ba5b8b275eb2fda
+      internalID: 1722266086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_11
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 168
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242d8e69b441ccd4c98173d141a87cb7
+      internalID: 1597375321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e91f4d374b251d4a91d670bcc099226
+      internalID: -1650833796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 40
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a794363635695499da28130edcfba9
+      internalID: -1704364953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 40
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a0fd2de6d34294db0f27529c04b0df
+      internalID: -2145430088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_15
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 40
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad501a21ab2d48e41a5b5e858344fe5d
+      internalID: 1358403501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_16
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 40
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3106636b876054f861544f2e7a23cf
+      internalID: -918006944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 40
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed1d22e8f2e80c4c8e9d2f03fb8b69a
+      internalID: -803793398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_18
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 40
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5272bf2739f85cd4797f4d64641bace4
+      internalID: 1747604223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_19
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 40
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b3d4c596442b6478a507ae719641ad
+      internalID: -1657837792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_20
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 40
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095a3b29bddbf8f4e94e96291fb4f78b
+      internalID: -301591124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_21
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 40
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afef30fc2eec9504e88489f63107d4f1
+      internalID: -678832107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_22
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 40
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc2c8561a676b6448e6ef15d17fd331
+      internalID: -424080996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalRed_23
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 40
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd84778237a855a45b937cbcce7be75e
+      internalID: -261364505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -115,7 +619,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GhostNormalRed_5: -1635286082
+      GhostNormalRed_0: -884531486
+      GhostNormalRed_10: 1722266086
+      GhostNormalRed_2: 1320751269
+      GhostNormalRed_9: 947776761
+      GhostNormalRed_13: -1704364953
+      GhostNormalRed_7: -927654555
+      GhostNormalRed_22: -424080996
+      GhostNormalRed_4: 1380604283
+      GhostNormalRed_6: 2000003381
+      GhostNormalRed_15: 1358403501
+      GhostNormalRed_21: -678832107
+      GhostNormalRed_8: 2099304368
+      GhostNormalRed_11: 1597375321
+      GhostNormalRed_20: -301591124
+      GhostNormalRed_19: -1657837792
+      GhostNormalRed_16: -918006944
+      GhostNormalRed_12: -1650833796
+      GhostNormalRed_17: -803793398
+      GhostNormalRed_1: -1369225898
+      GhostNormalRed_14: -2145430088
+      GhostNormalRed_23: -261364505
+      GhostNormalRed_3: -255825415
+      GhostNormalRed_18: 1747604223
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

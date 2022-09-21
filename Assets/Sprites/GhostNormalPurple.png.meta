@@ -104,7 +104,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GhostNormalPurple_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 168
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50815636aab1cca46a49f696940b64b3
+      internalID: -813282692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 168
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2019f21fd7564e04197e53ea30a3fad2
+      internalID: 1291331105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 168
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4549f9579a73a498109eb9451bfe63
+      internalID: -1708312981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 168
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09a70499c86074499bc3b3b2693c463
+      internalID: 585195978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 168
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb10ddaf205fd74fb7f7e1260dab44b
+      internalID: 1719449964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_5
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 168
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45707bb7bf0cdb4c99d903a31d69617
+      internalID: 55255438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_6
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 168
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b285a28808a57d14c954309e579b5608
+      internalID: 1356788870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_7
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 168
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d98bbef7cc3f2d41ad8d8ceca6a2722
+      internalID: -1737748444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_8
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 168
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e12cd9f9a33e61418f91b1e47946380
+      internalID: -419871203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_9
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 168
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87473e89e7613d14bbf79b2ad203aa23
+      internalID: -1894302660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_10
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 168
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68102dbf23291c34e8815a04c0c6aca1
+      internalID: 714577494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_11
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 168
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21591d7c22f6a247b0b2bee52fed4a3
+      internalID: -614716415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f24fd6dc6c1ede41a82a80a99c76efb
+      internalID: -1668620500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 40
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38769a4312748854baf58bac28c8d7ac
+      internalID: 572970147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 40
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7611c1a7912eb4e803d0b728d5a8e7
+      internalID: 1815294588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_15
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 40
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c317688ac85bf44087bc12c7b7cd2f3
+      internalID: -1474503675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_16
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 40
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c026cf56799f3419839b14502ee09a
+      internalID: -673277324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 40
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01906660f339c224ea66cdfd1b5407f6
+      internalID: -135209064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_18
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 40
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d420e614303fc0a41bf3c453fc336e51
+      internalID: 16631800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_19
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 40
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9655e37a418d2164a90dfa8d75be71d0
+      internalID: 1289200700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_20
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 40
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0705934d87771084d8e59ecaba2d3c6c
+      internalID: -2007941302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_21
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 40
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05af9a82dbf9b7845a56f2c8eca65e50
+      internalID: 2135687986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_22
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 40
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c050539af80894eb6b91597bf4dcf4
+      internalID: 1203107563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalPurple_23
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 40
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac802f55b1395674eb93657e01e87b21
+      internalID: 1976263919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -115,7 +619,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GhostNormalPurple_18: 16631800
+      GhostNormalPurple_13: 572970147
+      GhostNormalPurple_1: 1291331105
+      GhostNormalPurple_22: 1203107563
+      GhostNormalPurple_14: 1815294588
+      GhostNormalPurple_4: 1719449964
+      GhostNormalPurple_5: 55255438
+      GhostNormalPurple_9: -1894302660
+      GhostNormalPurple_6: 1356788870
+      GhostNormalPurple_20: -2007941302
+      GhostNormalPurple_11: -614716415
+      GhostNormalPurple_17: -135209064
+      GhostNormalPurple_21: 2135687986
+      GhostNormalPurple_3: 585195978
+      GhostNormalPurple_16: -673277324
+      GhostNormalPurple_2: -1708312981
+      GhostNormalPurple_10: 714577494
+      GhostNormalPurple_12: -1668620500
+      GhostNormalPurple_8: -419871203
+      GhostNormalPurple_19: 1289200700
+      GhostNormalPurple_23: 1976263919
+      GhostNormalPurple_0: -813282692
+      GhostNormalPurple_15: -1474503675
+      GhostNormalPurple_7: -1737748444
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

@@ -104,7 +104,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GhostNormalYellow_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 168
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad50dbbedbbab44c9dcac7f9f2c1661
+      internalID: -1983026433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 168
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e481a1d7d2a12b4459274b00d400b201
+      internalID: 1715563215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 168
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d81ef4c982bf442b91c65823df0ace
+      internalID: 1721928125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 168
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147d9f0173b428b47a0cbdd237597256
+      internalID: 583515874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 168
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9962966470e1b6f4598a5ed1b64b83b6
+      internalID: -1842057112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_5
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 168
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80157db9b10f11740bfa778f36189b8b
+      internalID: -56156328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_6
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 168
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b468c1739edbbfa4f93532eb84ebe89d
+      internalID: -1694544139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_7
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 168
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b445b9da1d6754b4baf652ba315870c6
+      internalID: 1619248474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_8
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 168
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d100f1381fd74f459eae07bd342b97b
+      internalID: -128464466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_9
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 168
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fcf86a3f196834e85b822ed99fa2b4
+      internalID: 1640095067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_10
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 168
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836e3d1fd4740554d850600f06475088
+      internalID: -1039092596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_11
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 168
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf2e1d0aea91c74d8d5e76020483219
+      internalID: 2043597308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fede6106d70d14469d8d68dba43f3f0
+      internalID: -1621120211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 40
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15f9d3f3564c724fac9e8960ee33382
+      internalID: 1961288823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 40
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358f9a62761e3b34598991ecdecc9843
+      internalID: -210913748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_15
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 40
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbfab416d481be489952bd67de4673b
+      internalID: 1864742800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_16
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 40
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d27b2befe544f54dbc15e6236a93ed9
+      internalID: 465994377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 40
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a41d3a956ed5544d87797d8ff1c4b98
+      internalID: -314490850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_18
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 40
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7e7e23672443b4cb59edfff53d1b1e
+      internalID: -355560717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_19
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 40
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b1bc8bb4dc1eb44ae8142576a2c762
+      internalID: 2124882111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_20
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 40
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb30d1ed3d96b42428f2c31eecec766d
+      internalID: -146823143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_21
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 40
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df606cec94cc1474bbf1121b0904d2c4
+      internalID: 1014978175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_22
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 40
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d65a1010ebcdd419fb466a00015f2f
+      internalID: -1640059491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostNormalYellow_23
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 40
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8923c7469218a2e4db37c858325b5ead
+      internalID: 158689987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -115,7 +619,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GhostNormalYellow_14: -210913748
+      GhostNormalYellow_8: -128464466
+      GhostNormalYellow_22: -1640059491
+      GhostNormalYellow_0: -1983026433
+      GhostNormalYellow_11: 2043597308
+      GhostNormalYellow_7: 1619248474
+      GhostNormalYellow_5: -56156328
+      GhostNormalYellow_3: 583515874
+      GhostNormalYellow_15: 1864742800
+      GhostNormalYellow_10: -1039092596
+      GhostNormalYellow_6: -1694544139
+      GhostNormalYellow_16: 465994377
+      GhostNormalYellow_1: 1715563215
+      GhostNormalYellow_17: -314490850
+      GhostNormalYellow_21: 1014978175
+      GhostNormalYellow_9: 1640095067
+      GhostNormalYellow_23: 158689987
+      GhostNormalYellow_13: 1961288823
+      GhostNormalYellow_19: 2124882111
+      GhostNormalYellow_2: 1721928125
+      GhostNormalYellow_18: -355560717
+      GhostNormalYellow_20: -146823143
+      GhostNormalYellow_4: -1842057112
+      GhostNormalYellow_12: -1621120211
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
