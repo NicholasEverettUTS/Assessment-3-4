@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AnimRotate : MonoBehaviour
 {
+    public Animator controller;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,6 @@ public class AnimRotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        controller.SetTrigger("RotateParam");
     }
 }
