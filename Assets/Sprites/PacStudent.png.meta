@@ -109,10 +109,17 @@ TextureImporter:
       name: PacStudent_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 39
         y: 167
         width: 46
         height: 47
+=======
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,10 +137,17 @@ TextureImporter:
       name: PacStudent_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 167
         y: 167
         width: 46
         height: 47
+=======
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,10 +165,17 @@ TextureImporter:
       name: PacStudent_2
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 295
         y: 167
         width: 46
         height: 47
+=======
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +193,17 @@ TextureImporter:
       name: PacStudent_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 422
         y: 167
         width: 48
         height: 47
+=======
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +221,17 @@ TextureImporter:
       name: PacStudent_4
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 550
         y: 167
         width: 40
         height: 47
+=======
+        x: 384
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +249,17 @@ TextureImporter:
       name: PacStudent_5
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 679
         y: 167
         width: 34
         height: 47
+=======
+        x: 480
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +277,17 @@ TextureImporter:
       name: PacStudent_6
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 807
         y: 167
         width: 31
         height: 47
+=======
+        x: 576
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +305,17 @@ TextureImporter:
       name: PacStudent_7
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 939
         y: 167
         width: 46
         height: 47
+=======
+        x: 672
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +333,17 @@ TextureImporter:
       name: PacStudent_8
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1067
         y: 167
         width: 46
         height: 47
+=======
+        x: 768
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +361,17 @@ TextureImporter:
       name: PacStudent_9
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1195
         y: 167
         width: 47
         height: 47
+=======
+        x: 864
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +389,17 @@ TextureImporter:
       name: PacStudent_10
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1322
         y: 167
         width: 48
         height: 47
+=======
+        x: 960
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +417,17 @@ TextureImporter:
       name: PacStudent_11
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1451
         y: 167
         width: 46
         height: 39
+=======
+        x: 1056
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +445,17 @@ TextureImporter:
       name: PacStudent_12
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1579
         y: 167
         width: 46
         height: 34
+=======
+        x: 1152
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +473,17 @@ TextureImporter:
       name: PacStudent_13
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1707
         y: 167
         width: 46
         height: 30
+=======
+        x: 1248
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,10 +501,17 @@ TextureImporter:
       name: PacStudent_14
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1835
         y: 170
         width: 47
         height: 47
+=======
+        x: 1344
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +529,17 @@ TextureImporter:
       name: PacStudent_15
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1962
         y: 170
         width: 48
         height: 47
+=======
+        x: 1440
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,10 +557,17 @@ TextureImporter:
       name: PacStudent_16
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2091
         y: 170
         width: 46
         height: 47
+=======
+        x: 1536
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +585,17 @@ TextureImporter:
       name: PacStudent_17
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2219
         y: 170
         width: 46
         height: 47
+=======
+        x: 1632
+        y: 96
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,10 +613,17 @@ TextureImporter:
       name: PacStudent_18
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2354
         y: 170
         width: 39
         height: 47
+=======
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,10 +641,17 @@ TextureImporter:
       name: PacStudent_19
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 55
         y: 42
         width: 35
         height: 47
+=======
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,10 +669,17 @@ TextureImporter:
       name: PacStudent_20
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 170
         y: 39
         width: 47
         height: 30
+=======
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,10 +697,17 @@ TextureImporter:
       name: PacStudent_21
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 295
         y: 42
         width: 46
         height: 47
+=======
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,10 +725,17 @@ TextureImporter:
       name: PacStudent_22
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 422
         y: 42
         width: 48
         height: 47
+=======
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -592,10 +753,17 @@ TextureImporter:
       name: PacStudent_23
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 550
         y: 42
         width: 47
         height: 47
+=======
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +781,17 @@ TextureImporter:
       name: PacStudent_24
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 679
         y: 42
         width: 46
         height: 47
+=======
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +809,17 @@ TextureImporter:
       name: PacStudent_25
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 807
         y: 50
         width: 46
         height: 39
+=======
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -655,10 +837,17 @@ TextureImporter:
       name: PacStudent_26
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 935
         y: 50
         width: 46
         height: 39
+=======
+        x: 768
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -676,10 +865,17 @@ TextureImporter:
       name: PacStudent_27
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1062
         y: 55
         width: 48
         height: 34
+=======
+        x: 864
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -697,10 +893,17 @@ TextureImporter:
       name: PacStudent_28
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1190
         y: 39
         width: 47
         height: 47
+=======
+        x: 960
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -718,10 +921,17 @@ TextureImporter:
       name: PacStudent_29
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1319
         y: 39
         width: 46
         height: 39
+=======
+        x: 1056
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -739,10 +949,17 @@ TextureImporter:
       name: PacStudent_30
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1447
         y: 39
         width: 46
         height: 34
+=======
+        x: 1152
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -760,10 +977,17 @@ TextureImporter:
       name: PacStudent_31
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1575
         y: 39
         width: 47
         height: 30
+=======
+        x: 1248
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -781,10 +1005,17 @@ TextureImporter:
       name: PacStudent_32
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1702
         y: 39
         width: 48
         height: 27
+=======
+        x: 1344
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -802,10 +1033,17 @@ TextureImporter:
       name: PacStudent_33
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1831
         y: 39
         width: 46
         height: 22
+=======
+        x: 1440
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -823,10 +1061,17 @@ TextureImporter:
       name: PacStudent_34
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1959
         y: 39
         width: 46
         height: 18
+=======
+        x: 1536
+        y: 0
+        width: 96
+        height: 96
+>>>>>>> parent of 020cb6b (22/09/2022 Assets Complete. Waiting for elaboration to finish.)
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
