@@ -106,15 +106,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GhostDead_0
+      name: GhostDead_2
       rect:
         serializedVersion: 2
-        x: 40
-        y: 167
-        width: 38
-        height: 45
+        x: 501
+        y: 502
+        width: 112
+        height: 134
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -127,15 +127,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_1
+      name: GhostDead_4
       rect:
         serializedVersion: 2
-        x: 56
-        y: 208
-        width: 20
-        height: 4
+        x: 900
+        y: 501
+        width: 102
+        height: 135
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,15 +148,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_2
+      name: GhostDead_9
       rect:
         serializedVersion: 2
-        x: 167
-        y: 167
-        width: 37
-        height: 45
+        x: 1704
+        y: 624
+        width: 60
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,15 +169,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_3
+      name: GhostDead_10
       rect:
         serializedVersion: 2
-        x: 184
-        y: 208
-        width: 19
-        height: 4
+        x: 156
+        y: 240
+        width: 60
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,15 +190,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_4
+      name: GhostDead_1
       rect:
         serializedVersion: 2
-        x: 300
-        y: 167
-        width: 35
-        height: 45
+        x: 168
+        y: 624
+        width: 60
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -211,15 +211,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_5
+      name: GhostDead_0
       rect:
         serializedVersion: 2
-        x: 312
-        y: 208
-        width: 20
-        height: 4
+        x: 120
+        y: 502
+        width: 112
+        height: 134
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,15 +232,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_6
+      name: GhostDead_3
       rect:
         serializedVersion: 2
-        x: 428
-        y: 167
-        width: 34
-        height: 45
+        x: 552
+        y: 624
+        width: 57
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: GhostDead_7
       rect:
         serializedVersion: 2
-        x: 440
-        y: 208
-        width: 20
-        height: 4
+        x: 1320
+        y: 624
+        width: 60
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,36 +274,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_9
+      name: GhostDead_17
       rect:
         serializedVersion: 2
-        x: 568
-        y: 208
-        width: 20
-        height: 4
+        x: 1304
+        y: 118
+        width: 100
+        height: 134
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cce946d2b854b5f40aa7749e39125603
-      internalID: 1609778524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GhostDead_10
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 80
-        width: 20
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -316,15 +295,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_11
+      name: GhostDead_5
       rect:
         serializedVersion: 2
-        x: 49
-        y: 39
-        width: 39
-        height: 45
+        x: 936
+        y: 624
+        width: 60
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -337,15 +316,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_12
+      name: GhostDead_6
       rect:
         serializedVersion: 2
-        x: 180
-        y: 80
-        width: 20
-        height: 4
+        x: 1284
+        y: 501
+        width: 101
+        height: 135
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -358,15 +337,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_13
+      name: GhostDead_16
       rect:
         serializedVersion: 2
-        x: 179
-        y: 39
-        width: 37
-        height: 45
+        x: 1308
+        y: 240
+        width: 60
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -379,15 +358,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_14
+      name: GhostDead_15
       rect:
         serializedVersion: 2
-        x: 308
-        y: 80
-        width: 20
-        height: 4
+        x: 915
+        y: 116
+        width: 105
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -400,15 +379,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_15
+      name: GhostDead_12
       rect:
         serializedVersion: 2
-        x: 305
-        y: 38
-        width: 35
-        height: 46
+        x: 540
+        y: 240
+        width: 60
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -421,15 +400,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_16
+      name: GhostDead_11
       rect:
         serializedVersion: 2
-        x: 436
-        y: 80
-        width: 20
-        height: 4
+        x: 153
+        y: 118
+        width: 111
+        height: 134
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -442,15 +421,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostDead_17
+      name: GhostDead_13
       rect:
         serializedVersion: 2
-        x: 433
-        y: 39
-        width: 35
-        height: 45
+        x: 536
+        y: 115
+        width: 112
+        height: 137
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -458,6 +437,27 @@ TextureImporter:
       bones: []
       spriteID: 150a7a30a27e44f43b86e31eb6645fe4
       internalID: 116415859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostDead_14
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 240
+        width: 60
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ee4d7dee8f00340ae951f6bf7d0758
+      internalID: -1893324493
       vertices: []
       indices: 
       edges: []
@@ -473,24 +473,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GhostDead_2: 1529566754
-      GhostDead_4: -1670122578
-      GhostDead_9: 1609778524
-      GhostDead_10: 376008855
-      GhostDead_1: -1272345337
-      GhostDead_0: -1715261628
-      GhostDead_3: 1404237203
+      GhostDead_2: -1715261628
+      GhostDead_4: -1272345337
+      GhostDead_9: 1529566754
+      GhostDead_10: 1404237203
+      GhostDead_1: -1670122578
+      GhostDead_0: -1399885486
+      GhostDead_3: -855928846
       GhostDead_7: -1086966953
-      GhostDead_14: -773910830
-      GhostDead_8: -611849392
-      GhostDead_17: 116415859
-      GhostDead_5: -1399885486
-      GhostDead_6: -855928846
-      GhostDead_16: 1535724004
-      GhostDead_15: -1004495255
-      GhostDead_12: -1916173995
-      GhostDead_11: 728793775
-      GhostDead_13: 1996120187
+      GhostDead_14: -611849392
+      GhostDead_8: 1609778524
+      GhostDead_17: 376008855
+      GhostDead_5: 728793775
+      GhostDead_6: -1916173995
+      GhostDead_16: 1996120187
+      GhostDead_15: -773910830
+      GhostDead_12: -1004495255
+      GhostDead_11: 1535724004
+      GhostDead_13: 116415859
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
