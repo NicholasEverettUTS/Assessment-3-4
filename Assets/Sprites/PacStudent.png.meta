@@ -109,10 +109,10 @@ TextureImporter:
       name: PacStudent_0
       rect:
         serializedVersion: 2
-        x: 97
-        y: 417
-        width: 115
-        height: 115
+        x: 0
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,10 +130,10 @@ TextureImporter:
       name: PacStudent_1
       rect:
         serializedVersion: 2
-        x: 418
-        y: 417
-        width: 115
-        height: 115
+        x: 96
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,10 +151,10 @@ TextureImporter:
       name: PacStudent_2
       rect:
         serializedVersion: 2
-        x: 736
-        y: 417
-        width: 118
-        height: 115
+        x: 192
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: PacStudent_3
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 417
-        width: 98
-        height: 115
+        x: 288
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +193,10 @@ TextureImporter:
       name: PacStudent_4
       rect:
         serializedVersion: 2
-        x: 1377
-        y: 417
-        width: 87
-        height: 115
+        x: 384
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: PacStudent_5
       rect:
         serializedVersion: 2
-        x: 1697
-        y: 417
-        width: 76
-        height: 115
+        x: 480
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: PacStudent_6
       rect:
         serializedVersion: 2
-        x: 2026
-        y: 417
-        width: 118
-        height: 115
+        x: 576
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +256,10 @@ TextureImporter:
       name: PacStudent_7
       rect:
         serializedVersion: 2
-        x: 2347
-        y: 417
-        width: 115
-        height: 115
+        x: 672
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +277,10 @@ TextureImporter:
       name: PacStudent_8
       rect:
         serializedVersion: 2
-        x: 2668
-        y: 417
-        width: 115
-        height: 115
+        x: 768
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +298,10 @@ TextureImporter:
       name: PacStudent_9
       rect:
         serializedVersion: 2
-        x: 2986
-        y: 417
-        width: 118
-        height: 95
+        x: 864
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +319,10 @@ TextureImporter:
       name: PacStudent_10
       rect:
         serializedVersion: 2
-        x: 3306
-        y: 417
-        width: 118
-        height: 87
+        x: 960
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +340,10 @@ TextureImporter:
       name: PacStudent_11
       rect:
         serializedVersion: 2
-        x: 3627
-        y: 417
-        width: 115
-        height: 76
+        x: 1056
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +361,10 @@ TextureImporter:
       name: PacStudent_12
       rect:
         serializedVersion: 2
-        x: 3947
-        y: 425
-        width: 116
-        height: 118
+        x: 1152
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +382,10 @@ TextureImporter:
       name: PacStudent_13
       rect:
         serializedVersion: 2
-        x: 4268
-        y: 425
-        width: 115
-        height: 118
+        x: 1248
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,10 +403,10 @@ TextureImporter:
       name: PacStudent_14
       rect:
         serializedVersion: 2
-        x: 4586
-        y: 425
-        width: 118
-        height: 118
+        x: 1344
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +424,10 @@ TextureImporter:
       name: PacStudent_15
       rect:
         serializedVersion: 2
-        x: 4926
-        y: 425
-        width: 98
-        height: 118
+        x: 1440
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,10 +445,10 @@ TextureImporter:
       name: PacStudent_16
       rect:
         serializedVersion: 2
-        x: 5258
-        y: 425
-        width: 84
-        height: 118
+        x: 1536
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +466,10 @@ TextureImporter:
       name: PacStudent_17
       rect:
         serializedVersion: 2
-        x: 5587
-        y: 425
-        width: 76
-        height: 118
+        x: 1632
+        y: 96
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,10 +487,10 @@ TextureImporter:
       name: PacStudent_18
       rect:
         serializedVersion: 2
-        x: 97
-        y: 108
-        width: 115
-        height: 115
+        x: 0
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,10 +508,10 @@ TextureImporter:
       name: PacStudent_19
       rect:
         serializedVersion: 2
-        x: 418
-        y: 108
-        width: 115
-        height: 115
+        x: 96
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,10 +529,10 @@ TextureImporter:
       name: PacStudent_20
       rect:
         serializedVersion: 2
-        x: 736
-        y: 108
-        width: 118
-        height: 115
+        x: 192
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,10 +550,10 @@ TextureImporter:
       name: PacStudent_21
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 128
-        width: 118
-        height: 95
+        x: 288
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,10 +571,10 @@ TextureImporter:
       name: PacStudent_22
       rect:
         serializedVersion: 2
-        x: 1377
-        y: 136
-        width: 115
-        height: 87
+        x: 384
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -592,10 +592,10 @@ TextureImporter:
       name: PacStudent_23
       rect:
         serializedVersion: 2
-        x: 1697
-        y: 147
-        width: 116
-        height: 76
+        x: 480
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +613,10 @@ TextureImporter:
       name: PacStudent_24
       rect:
         serializedVersion: 2
-        x: 2018
-        y: 97
-        width: 115
-        height: 118
+        x: 576
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +634,10 @@ TextureImporter:
       name: PacStudent_25
       rect:
         serializedVersion: 2
-        x: 2336
-        y: 97
-        width: 118
-        height: 97
+        x: 672
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -655,10 +655,10 @@ TextureImporter:
       name: PacStudent_26
       rect:
         serializedVersion: 2
-        x: 2656
-        y: 97
-        width: 118
-        height: 87
+        x: 768
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -676,10 +676,10 @@ TextureImporter:
       name: PacStudent_27
       rect:
         serializedVersion: 2
-        x: 2977
-        y: 97
-        width: 115
-        height: 76
+        x: 864
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -697,10 +697,10 @@ TextureImporter:
       name: PacStudent_28
       rect:
         serializedVersion: 2
-        x: 3298
-        y: 97
-        width: 115
-        height: 67
+        x: 960
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -718,10 +718,10 @@ TextureImporter:
       name: PacStudent_29
       rect:
         serializedVersion: 2
-        x: 3616
-        y: 97
-        width: 118
-        height: 56
+        x: 1056
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -739,10 +739,10 @@ TextureImporter:
       name: PacStudent_30
       rect:
         serializedVersion: 2
-        x: 5216
-        y: 97
-        width: 118
-        height: 115
+        x: 1152
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -760,10 +760,10 @@ TextureImporter:
       name: PacStudent_31
       rect:
         serializedVersion: 2
-        x: 3936
-        y: 97
-        width: 118
-        height: 45
+        x: 1248
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -781,10 +781,10 @@ TextureImporter:
       name: PacStudent_32
       rect:
         serializedVersion: 2
-        x: 4257
-        y: 97
-        width: 115
-        height: 36
+        x: 1344
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -802,10 +802,10 @@ TextureImporter:
       name: PacStudent_33
       rect:
         serializedVersion: 2
-        x: 4577
-        y: 97
-        width: 116
-        height: 28
+        x: 1440
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -823,10 +823,10 @@ TextureImporter:
       name: PacStudent_34
       rect:
         serializedVersion: 2
-        x: 4898
-        y: 97
-        width: 115
-        height: 17
+        x: 1536
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
