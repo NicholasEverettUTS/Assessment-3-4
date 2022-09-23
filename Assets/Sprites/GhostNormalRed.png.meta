@@ -109,10 +109,10 @@ TextureImporter:
       name: GhostNormalRed_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 168
-        width: 48
-        height: 44
+        x: 118
+        y: 501
+        width: 149
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,10 +130,10 @@ TextureImporter:
       name: GhostNormalRed_1
       rect:
         serializedVersion: 2
-        x: 168
-        y: 168
-        width: 48
-        height: 44
+        x: 501
+        y: 501
+        width: 150
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,10 +151,10 @@ TextureImporter:
       name: GhostNormalRed_2
       rect:
         serializedVersion: 2
-        x: 296
-        y: 168
-        width: 44
-        height: 44
+        x: 885
+        y: 501
+        width: 138
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: GhostNormalRed_3
       rect:
         serializedVersion: 2
-        x: 424
-        y: 168
-        width: 44
-        height: 44
+        x: 1270
+        y: 501
+        width: 137
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +193,10 @@ TextureImporter:
       name: GhostNormalRed_4
       rect:
         serializedVersion: 2
-        x: 556
-        y: 168
-        width: 36
-        height: 44
+        x: 1666
+        y: 501
+        width: 113
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: GhostNormalRed_5
       rect:
         serializedVersion: 2
-        x: 684
-        y: 168
-        width: 36
-        height: 44
+        x: 2049
+        y: 501
+        width: 114
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: GhostNormalRed_6
       rect:
         serializedVersion: 2
-        x: 808
-        y: 168
-        width: 48
-        height: 44
+        x: 2422
+        y: 501
+        width: 149
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +256,10 @@ TextureImporter:
       name: GhostNormalRed_7
       rect:
         serializedVersion: 2
-        x: 936
-        y: 168
-        width: 48
-        height: 44
+        x: 2805
+        y: 501
+        width: 150
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +277,10 @@ TextureImporter:
       name: GhostNormalRed_8
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 168
-        width: 44
-        height: 44
+        x: 3189
+        y: 501
+        width: 138
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +298,10 @@ TextureImporter:
       name: GhostNormalRed_9
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 168
-        width: 44
-        height: 44
+        x: 3574
+        y: 501
+        width: 137
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +319,10 @@ TextureImporter:
       name: GhostNormalRed_10
       rect:
         serializedVersion: 2
-        x: 1324
-        y: 168
-        width: 36
-        height: 44
+        x: 3970
+        y: 501
+        width: 113
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +340,10 @@ TextureImporter:
       name: GhostNormalRed_11
       rect:
         serializedVersion: 2
-        x: 1452
-        y: 168
-        width: 36
-        height: 44
+        x: 4353
+        y: 501
+        width: 114
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +361,10 @@ TextureImporter:
       name: GhostNormalRed_12
       rect:
         serializedVersion: 2
-        x: 40
-        y: 40
-        width: 48
-        height: 44
+        x: 118
+        y: 117
+        width: 149
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +382,10 @@ TextureImporter:
       name: GhostNormalRed_13
       rect:
         serializedVersion: 2
-        x: 168
-        y: 40
-        width: 48
-        height: 44
+        x: 501
+        y: 117
+        width: 150
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,10 +403,10 @@ TextureImporter:
       name: GhostNormalRed_14
       rect:
         serializedVersion: 2
-        x: 300
-        y: 40
-        width: 44
-        height: 44
+        x: 897
+        y: 117
+        width: 137
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +424,10 @@ TextureImporter:
       name: GhostNormalRed_15
       rect:
         serializedVersion: 2
-        x: 428
-        y: 40
-        width: 44
-        height: 44
+        x: 1281
+        y: 117
+        width: 138
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,10 +445,10 @@ TextureImporter:
       name: GhostNormalRed_16
       rect:
         serializedVersion: 2
-        x: 560
-        y: 40
-        width: 36
-        height: 44
+        x: 1677
+        y: 117
+        width: 113
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +466,10 @@ TextureImporter:
       name: GhostNormalRed_17
       rect:
         serializedVersion: 2
-        x: 688
-        y: 40
-        width: 36
-        height: 44
+        x: 2062
+        y: 117
+        width: 113
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,10 +487,10 @@ TextureImporter:
       name: GhostNormalRed_18
       rect:
         serializedVersion: 2
-        x: 808
-        y: 40
-        width: 48
-        height: 44
+        x: 2422
+        y: 117
+        width: 149
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,10 +508,10 @@ TextureImporter:
       name: GhostNormalRed_19
       rect:
         serializedVersion: 2
-        x: 936
-        y: 40
-        width: 48
-        height: 44
+        x: 2805
+        y: 117
+        width: 150
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,10 +529,10 @@ TextureImporter:
       name: GhostNormalRed_20
       rect:
         serializedVersion: 2
-        x: 1068
-        y: 40
-        width: 44
-        height: 44
+        x: 3201
+        y: 117
+        width: 137
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,10 +550,10 @@ TextureImporter:
       name: GhostNormalRed_21
       rect:
         serializedVersion: 2
-        x: 1196
-        y: 40
-        width: 44
-        height: 44
+        x: 3585
+        y: 117
+        width: 138
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,10 +571,10 @@ TextureImporter:
       name: GhostNormalRed_22
       rect:
         serializedVersion: 2
-        x: 1328
-        y: 40
-        width: 36
-        height: 44
+        x: 3981
+        y: 117
+        width: 113
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -592,10 +592,10 @@ TextureImporter:
       name: GhostNormalRed_23
       rect:
         serializedVersion: 2
-        x: 1456
-        y: 40
-        width: 36
-        height: 44
+        x: 4366
+        y: 117
+        width: 113
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
