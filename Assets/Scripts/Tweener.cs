@@ -35,7 +35,7 @@ public class Tweener : MonoBehaviour
     {
         if (TweenExists(targetObject) == false)
         {
-            activeTween = new Tween(targetObject, startPos, endPos, Time.time, duration));
+            activeTween = new Tween(targetObject, startPos, endPos, Time.time, duration);
             return true;
         }
         return false;
