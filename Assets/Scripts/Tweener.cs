@@ -31,14 +31,10 @@ public class Tweener : MonoBehaviour
         }
     }
 
-    public bool AddTween(Transform targetObject, Vector3 startPos, Vector3 endPos, float duration)
+    public void AddTween(Transform targetObject, Vector3 startPos, Vector3 endPos, float duration)
     {
-        if (TweenExists(targetObject) == false)
-        {
-            activeTween = new Tween(targetObject, startPos, endPos, Time.time, duration);
-            return true;
-        }
-        return false;
+
+        activeTween = new Tween(targetObject, startPos, endPos, Time.time, duration);
     }
 
     public bool TweenExists(Transform target)
