@@ -736,7 +736,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_30
+      name: PacStudent_34
       rect:
         serializedVersion: 2
         x: 5216
@@ -757,7 +757,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_31
+      name: PacStudent_30
       rect:
         serializedVersion: 2
         x: 3936
@@ -778,7 +778,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_32
+      name: PacStudent_31
       rect:
         serializedVersion: 2
         x: 4257
@@ -799,7 +799,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_33
+      name: PacStudent_32
       rect:
         serializedVersion: 2
         x: 4577
@@ -820,7 +820,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PacStudent_34
+      name: PacStudent_33
       rect:
         serializedVersion: 2
         x: 4898
@@ -857,7 +857,7 @@ TextureImporter:
       PacStudent_4: -818900048
       PacStudent_12: 657406066
       PacStudent_8: -1073140796
-      PacStudent_33: -861448737
+      PacStudent_33: -1394028266
       PacStudent_6: -610930213
       PacStudent_25: -1506071767
       PacStudent_3: -1835135643
@@ -865,7 +865,7 @@ TextureImporter:
       PacStudent_1: 582028081
       PacStudent_29: 1216943922
       PacStudent_11: 409240742
-      PacStudent_31: -1508582924
+      PacStudent_31: -1194558493
       PacStudent_14: -167505004
       PacStudent_20: -2131864873
       PacStudent_28: -1127915126
@@ -874,12 +874,12 @@ TextureImporter:
       PacStudent_13: 187713412
       PacStudent_5: -1675471349
       PacStudent_26: -1265776700
-      PacStudent_34: -1394028266
+      PacStudent_34: -718786689
       PacStudent_0: -1424375518
       PacStudent_7: 503344172
       PacStudent_24: 1102100013
-      PacStudent_30: -718786689
-      PacStudent_32: -1194558493
+      PacStudent_30: -1508582924
+      PacStudent_32: -861448737
       PacStudent_17: -2143983734
       PacStudent_15: -2048034342
       PacStudent_10: 1459919010
