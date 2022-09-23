@@ -5,10 +5,11 @@ using UnityEngine;
 public class Tweener : MonoBehaviour
 {
     private Tween activeTween;
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-
+        animator.SetTrigger("RotationTrigger");
     }
 
     // Update is called once per frame
@@ -25,6 +26,7 @@ public class Tweener : MonoBehaviour
             }
             else if (distance <= 0.1f)
             {
+                animator.SetTrigger("RotationTrigger");
                 activeTween.Target.position = activeTween.EndPos;
                 activeTween = null;
             }

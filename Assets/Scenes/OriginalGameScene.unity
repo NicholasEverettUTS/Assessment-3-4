@@ -16940,6 +16940,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pacStudent: {fileID: 805494319}
+--- !u!95 &805494321 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1383260491955068603, guid: 414c4fcc41f62da41be35c45864501bc, type: 3}
+  m_PrefabInstance: {fileID: 1977239514}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &805494324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16952,6 +16957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee2d2f7bfd9547442aee4714416752ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 805494321}
 --- !u!1001 &812596560
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -19,19 +19,19 @@ public class PacStudentMovementHandler : MonoBehaviour
         Transform thisTransform = pacStudent.transform;
         if (thisTransform.position.x == -12.0f && thisTransform.position.y == 13.0f)
         {
-            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(-7.0f, 13.0f, 0.0f), 1.0f);
+            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(-7.0f, 13.0f, 0.0f), 1.5f);
         }
         if (thisTransform.position.x == -7.0f && thisTransform.position.y == 13.0f)
-        {
-            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(-7.0f, 9.0f, 0.0f), 1.0f);
+        {   
+            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(-7.0f, 9.0f, 0.0f), 1.5f);
         }
         if (thisTransform.position.x == -7.0f && thisTransform.position.y == 9.0f)
         {
-            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(-12.0f, 9.0f, 0.0f), 1.0f);
+            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(-12.0f, 9.0f, 0.0f), 1.5f);
         }
         if (thisTransform.position.x == -12.0f && thisTransform.position.y == 9.0f)
-        {
-            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(-12.0f, 13.0f, 0.0f), 1.0f);
+        {   
+            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(-12.0f, 13.0f, 0.0f), 1.5f);
         }
 
     }
