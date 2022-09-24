@@ -23,6 +23,8 @@ public class LevelGenerator : MonoBehaviour
         {0,0,0,0,0,0,5,0,0,0,4,0,0,0},
     };
 
+    GameObject[,] mapArray;
+
     private GameObject LevelLayoutParent;
     private GameObject LevelLayoutParent1;
     private GameObject LevelLayoutParent2;
@@ -43,11 +45,15 @@ public class LevelGenerator : MonoBehaviour
     [SerializeField]
     private GameObject junction;
 
+    private GameObject holder;
+
+
     int xIndex = -13;
     int yIndex = 14;
     // Start is called before the first frame update
     void Start()
     {
+        mapArray = new GameObject[levelMap.GetLength(0), levelMap.GetLength(1)];
         LevelLayoutParent = GameObject.Find("LevelLayoutParent");
         LevelLayoutParent1 = GameObject.Find("LevelLayoutParent (1)");
         LevelLayoutParent2 = GameObject.Find("LevelLayoutParent (2)");
@@ -81,37 +87,65 @@ public class LevelGenerator : MonoBehaviour
 
     void generator()
     {
-        for (int i = 0; i < levelMap.GetLength(0); i++)
+        for (int y = 0; y < levelMap.GetLength(0); y++)
         {
             for (int x = 0; x < levelMap.GetLength(1); x++)
             {
-                switch(levelMap[i, x]){
+                switch(levelMap[y, x]){
+                    case 0:
+                        mapArray[y, x] = null;
+                        break;
                     case 1:
-                        Instantiate(outsideCorner, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x] = Instantiate(outsideCorner, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
                         break;
                     case 2:
-                        Instantiate(outsideWall, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x] = Instantiate(outsideWall, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
                         break;
                     case 3:
-                        Instantiate(insideCorner, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x] = Instantiate(insideCorner, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        rotator(y, x, 3);
                         break;
                     case 4:
-                        Instantiate(insideWall, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x] = Instantiate(insideWall, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        rotator(y, x, 4);
                         break;
                     case 5:
-                        Instantiate(standardPellet, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x] = Instantiate(standardPellet, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
                         break;
                     case 6:
-                        Instantiate(powerPellet, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x] = Instantiate(powerPellet, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
                         break;
                     case 7:
-                        Instantiate(junction, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x] = Instantiate(junction, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
                         break;
                 }
                 xIndex++;
             }
             yIndex--;
             xIndex = -13;
+        }
+    }
+
+    void rotator(int y, int x, int t)
+    {
+        switch (t)
+        {
+            case 1:
+                break;
+            case 2:
+                break;
+             case 3:
+                mapArray[y, x].transform.Rotate(0, 0, 90);
+                break;
+             case 4:
+                if (mapArray[y - 1, x] != null)
+                {
+                    if (mapArray[y - 1, x].transform.rotation.eulerAngles.z == 90 || mapArray[y - 1, x].transform.rotation.eulerAngles.z == 270 || levelMap[y - 1, x] == 7)
+                    {
+                        mapArray[y, x].transform.Rotate(0, 0, 90);
+                    }
+                }
+                 break;
         }
     }
 }
