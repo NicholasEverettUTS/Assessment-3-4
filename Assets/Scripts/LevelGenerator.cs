@@ -24,6 +24,7 @@ public class LevelGenerator : MonoBehaviour
     };
 
     GameObject[,] mapArray;
+    bool[,] pelletArray;
 
     private GameObject LevelLayoutParent;
     private GameObject LevelLayoutParent1;
@@ -54,18 +55,14 @@ public class LevelGenerator : MonoBehaviour
     void Start()
     {
         mapArray = new GameObject[levelMap.GetLength(0), levelMap.GetLength(1)];
+        mapArray = new GameObject[levelMap.GetLength(0), levelMap.GetLength(1)];
         LevelLayoutParent = GameObject.Find("LevelLayoutParent");
         LevelLayoutParent1 = GameObject.Find("LevelLayoutParent (1)");
         LevelLayoutParent2 = GameObject.Find("LevelLayoutParent (2)");
         LevelLayoutParent3 = GameObject.Find("LevelLayoutParent (3)");
-        foreach (Transform child in LevelLayoutParent.transform)
-        {
-            GameObject.Destroy(child.gameObject);
-        }
-        Destroy(LevelLayoutParent1);
-        Destroy(LevelLayoutParent2);
-        Destroy(LevelLayoutParent3);
+        destroyLevelOne();
         generator();
+        rotator();
     }
 
     // Update is called once per frame
@@ -103,11 +100,9 @@ public class LevelGenerator : MonoBehaviour
                         break;
                     case 3:
                         mapArray[y, x] = Instantiate(insideCorner, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
-                        rotator(y, x, 3);
                         break;
                     case 4:
                         mapArray[y, x] = Instantiate(insideWall, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
-                        rotator(y, x, 4);
                         break;
                     case 5:
                         mapArray[y, x] = Instantiate(standardPellet, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
@@ -126,26 +121,86 @@ public class LevelGenerator : MonoBehaviour
         }
     }
 
-    void rotator(int y, int x, int t)
+    void rotator()
     {
-        switch (t)
+        for (int y = 0; y < levelMap.GetLength(0); y++)
         {
-            case 1:
-                break;
-            case 2:
-                break;
-             case 3:
-                mapArray[y, x].transform.Rotate(0, 0, 90);
-                break;
-             case 4:
-                if (mapArray[y - 1, x] != null)
+            for (int x = 0; x < levelMap.GetLength(1); x++)
+            {
+                switch (levelMap[y,x])
                 {
-                    if (mapArray[y - 1, x].transform.rotation.eulerAngles.z == 90 || mapArray[y - 1, x].transform.rotation.eulerAngles.z == 270 || levelMap[y - 1, x] == 7)
-                    {
+                    case 1:
+                        if (y != 0)
+                        {
+                            if (mapArray[y - 1, x] != null)
+                            {
+                                if (mapArray[y - 1, x].transform.rotation.eulerAngles.z == 90)
+                                {
+                                    if (x != 0 && mapArray[y, x - 1] != null)
+                                    {
+                                        if (mapArray[y, x - 1].transform.rotation.eulerAngles.z == 0)
+                                        {
+                                            mapArray[y, x].transform.Rotate(0, 0, 180);
+                                            break;
+                                        }
+                                    }
+                                    else
+                                    {
+                                        mapArray[y, x].transform.Rotate(0, 0, 90);
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                        if (x != 0)
+                        {
+                            if (mapArray[y, x - 1].transform.rotation.eulerAngles.z == 90 || mapArray[y , x - 1].transform.rotation.eulerAngles.z == 180)
+                            {
+                                mapArray[y, x].transform.Rotate(0, 0, 270);
+                                break;
+                            }
+                        }
+                        break;
+                    case 2:
+                        //Debug.Log("hit");
+                        if (x != 0)
+                        {
+                            if (mapArray[y, x - 1] != null)
+                            {
+                                if (mapArray[y, x - 1].transform.rotation.eulerAngles.z == 90 || mapArray[y, x - 1].transform.rotation.eulerAngles.z == 180)
+                                {
+                                    mapArray[y, x].transform.Rotate(0, 0, 180);
+                                    break;
+                                }
+                            }
+                        }
+                        if (y != 0)
+                        {
+                            if (mapArray[y - 1, x] != null)
+                            {
+                                Debug.Log("hit");
+                                if (mapArray[y - 1, x].transform.rotation.eulerAngles.z == 0 || mapArray[y - 1, x].transform.rotation.eulerAngles.z == 90 || mapArray[y - 1, x].transform.rotation.eulerAngles.z == 270)
+                                {
+                                    mapArray[y, x].transform.Rotate(0, 0, 90);
+                                    break;
+                                }
+                            }
+                        }
+                        break;
+                    case 3:
                         mapArray[y, x].transform.Rotate(0, 0, 90);
-                    }
+                        break;
+                    case 4:
+                        if (mapArray[y - 1, x] != null)
+                        {
+                            if (mapArray[y - 1, x].transform.rotation.eulerAngles.z == 90 || mapArray[y - 1, x].transform.rotation.eulerAngles.z == 270 || levelMap[y - 1, x] == 7)
+                            {
+                                mapArray[y, x].transform.Rotate(0, 0, 90);
+                            }
+                        }
+                        break;
                 }
-                 break;
+            }
         }
     }
 }
