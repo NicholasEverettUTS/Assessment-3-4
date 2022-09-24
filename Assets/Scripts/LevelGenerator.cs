@@ -24,7 +24,6 @@ public class LevelGenerator : MonoBehaviour
     };
 
     GameObject[,] mapArray;
-    bool[,] pelletArray;
 
     private GameObject LevelLayoutParent;
     private GameObject LevelLayoutParent1;
@@ -127,7 +126,7 @@ public class LevelGenerator : MonoBehaviour
         {
             for (int x = 0; x < levelMap.GetLength(1); x++)
             {
-                switch (levelMap[y,x])
+                switch (levelMap[y, x])
                 {
                     case 1:
                         if (y != 0)
@@ -154,7 +153,7 @@ public class LevelGenerator : MonoBehaviour
                         }
                         if (x != 0)
                         {
-                            if (mapArray[y, x - 1].transform.rotation.eulerAngles.z == 90 || mapArray[y , x - 1].transform.rotation.eulerAngles.z == 180)
+                            if (mapArray[y, x - 1].transform.rotation.eulerAngles.z == 90 || mapArray[y, x - 1].transform.rotation.eulerAngles.z == 180)
                             {
                                 mapArray[y, x].transform.Rotate(0, 0, 270);
                                 break;
@@ -162,7 +161,6 @@ public class LevelGenerator : MonoBehaviour
                         }
                         break;
                     case 2:
-                        //Debug.Log("hit");
                         if (x != 0)
                         {
                             if (mapArray[y, x - 1] != null)
@@ -178,7 +176,6 @@ public class LevelGenerator : MonoBehaviour
                         {
                             if (mapArray[y - 1, x] != null)
                             {
-                                Debug.Log("hit");
                                 if (mapArray[y - 1, x].transform.rotation.eulerAngles.z == 0 || mapArray[y - 1, x].transform.rotation.eulerAngles.z == 90 || mapArray[y - 1, x].transform.rotation.eulerAngles.z == 270)
                                 {
                                     mapArray[y, x].transform.Rotate(0, 0, 90);
@@ -187,13 +184,73 @@ public class LevelGenerator : MonoBehaviour
                             }
                         }
                         break;
+
                     case 3:
-                        mapArray[y, x].transform.Rotate(0, 0, 90);
+                        if (levelMap[y - 1, x] == 5 || levelMap[y - 1, x] == 0)
+                        {
+                            if (levelMap[y, x - 1] == 5 || levelMap[y, x - 1] == 0)
+                            {
+                                mapArray[y, x].transform.Rotate(0, 0, 0);
+                                break;
+                            }
+                        }
+                        if (levelMap[y + 1, x] == 5 || levelMap[y + 1, x] == 0)
+                        {
+                            if (levelMap[y, x - 1] == 5 || levelMap[y, x - 1] == 0)
+                            {
+                                mapArray[y, x].transform.Rotate(0, 0, 90);
+                                break;
+                            }
+                        }
+                        if (levelMap[y - 1, x] == 5 || levelMap[y - 1, x] == 0)
+                        {
+                            if (levelMap[y, x - 1] == 5 || levelMap[y, x - 1] == 0)
+                            {
+                                mapArray[y, x].transform.Rotate(0, 0, 0);
+                                break;
+                            }
+                        }
+                        if (levelMap[y - 1, x] == 5 || levelMap[y - 1, x] == 0)
+                        {
+                            if (levelMap[y, x + 1] == 5 || levelMap[y, x + 1] == 0)
+                            {
+                                mapArray[y, x].transform.Rotate(0, 0, 270);
+                                break;
+                            }
+                        }
+                        if (levelMap[y + 1, x] == 5 || levelMap[y + 1, x] == 0)
+                        {
+                            if (levelMap[y, x + 1] == 5 || levelMap[y, x + 1] == 0)
+                            {
+                                 mapArray[y, x].transform.Rotate(0, 0, 180);
+                                 break;
+                            }
+                        }
+                        if (levelMap[y + 1, x - 1] == 5 || levelMap[y + 1, x - 1] == 0)
+                        {
+                            mapArray[y, x].transform.Rotate(0, 0, 270);
+                            break;
+                        }
+                        if (levelMap[y - 1, x - 1] == 5 || levelMap[y - 1, x - 1] == 0)
+                        {
+                            mapArray[y, x].transform.Rotate(0, 0, 180);
+                            break;
+                        }
+                        if (levelMap[y + 1, x + 1] == 5 || levelMap[y + 1, x + 1] == 0)
+                        {
+                            mapArray[y, x].transform.Rotate(0, 0, 0);
+                            break;
+                        }
+                        if (levelMap[y - 1, x + 1] == 5 || levelMap[y - 1, x + 1] == 0)
+                        {
+                            mapArray[y, x].transform.Rotate(0, 0, 90);
+                            break;
+                        }
                         break;
                     case 4:
                         if (mapArray[y - 1, x] != null)
                         {
-                            if (mapArray[y - 1, x].transform.rotation.eulerAngles.z == 90 || mapArray[y - 1, x].transform.rotation.eulerAngles.z == 270 || levelMap[y - 1, x] == 7)
+                            if (mapArray[y - 1, x].transform.rotation.eulerAngles.z == 90 || mapArray[y - 1, x].transform.rotation.eulerAngles.z == 270 || levelMap[y - 1, x] == 7 || levelMap[y - 1, x] == 3)
                             {
                                 mapArray[y, x].transform.Rotate(0, 0, 90);
                             }
