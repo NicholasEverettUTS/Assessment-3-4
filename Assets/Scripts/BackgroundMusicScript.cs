@@ -7,7 +7,6 @@ public class BackgroundMusicScript : MonoBehaviour
     public AudioSource thisSource;
     public AudioClip levelstart;
     public AudioClip backgroundNormal;
-    bool soundPlayed = false;
     // Start is called before the first frame update
     void Start()
     {

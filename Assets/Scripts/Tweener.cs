@@ -26,7 +26,7 @@ public class Tweener : MonoBehaviour
             }
             else if (distance <= 0.1f)
             {
-                animator.SetTrigger("RotationTrigger");
+                //animator.SetTrigger("RotationTrigger");
                 activeTween.Target.position = activeTween.EndPos;
                 activeTween = null;
             }
@@ -35,7 +35,7 @@ public class Tweener : MonoBehaviour
 
     public void AddTween(Transform targetObject, Vector3 startPos, Vector3 endPos, float duration)
     {
-
+        animator.SetTrigger("RotationTrigger");
         activeTween = new Tween(targetObject, startPos, endPos, Time.time, duration);
     }
 
