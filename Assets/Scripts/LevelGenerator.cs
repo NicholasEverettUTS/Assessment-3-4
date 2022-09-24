@@ -62,12 +62,13 @@ public class LevelGenerator : MonoBehaviour
         destroyLevelOne();
         generator();
         rotator();
+        mirror();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void destroyLevelOne()
@@ -87,7 +88,8 @@ public class LevelGenerator : MonoBehaviour
         {
             for (int x = 0; x < levelMap.GetLength(1); x++)
             {
-                switch(levelMap[y, x]){
+                switch (levelMap[y, x])
+                {
                     case 0:
                         mapArray[y, x] = null;
                         break;
@@ -222,8 +224,8 @@ public class LevelGenerator : MonoBehaviour
                         {
                             if (levelMap[y, x + 1] == 5 || levelMap[y, x + 1] == 0)
                             {
-                                 mapArray[y, x].transform.Rotate(0, 0, 180);
-                                 break;
+                                mapArray[y, x].transform.Rotate(0, 0, 180);
+                                break;
                             }
                         }
                         if (levelMap[y + 1, x - 1] == 5 || levelMap[y + 1, x - 1] == 0)
@@ -259,5 +261,34 @@ public class LevelGenerator : MonoBehaviour
                 }
             }
         }
+    }
+
+    void mirror()
+    {
+        for (int y = 0; y < mapArray.GetLength(0) - 2; y++)
+        {
+            for (int x = 0; x < mapArray.GetLength(1); x++)
+                {
+                if (mapArray[y, x] != null)
+                {
+                    mapArray[y, x].transform.parent = LevelLayoutParent.transform;
+                }
+            }
+        }
+        Debug.Log(mapArray[13, 10].transform.position);
+        Debug.Log(mapArray[14, 10].transform.position);
+        LevelLayoutParent1 = Instantiate(LevelLayoutParent, new Vector3(1, 0, 0), Quaternion.identity);
+        LevelLayoutParent1.transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+        LevelLayoutParent2 = Instantiate(LevelLayoutParent, new Vector3(0, 0, 0), Quaternion.identity);
+        LevelLayoutParent2.transform.localScale = new Vector3(1.0f, -1.0f, 1.0f);
+        for (int x = 0; x < levelMap.GetLength(1); x++)
+        {
+            if (mapArray[levelMap.GetLength(0) - 1, x] != null)
+            {
+                mapArray[levelMap.GetLength(0) - 1, x].transform.parent = LevelLayoutParent.transform;
+            }
+        }
+        LevelLayoutParent3 = Instantiate(LevelLayoutParent, new Vector3(1, 0, 0), Quaternion.identity);
+        LevelLayoutParent3.transform.localScale = new Vector3(-1.0f, -1.0f, 1.0f);
     }
 }
