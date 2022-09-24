@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 3072621682943754084}
   - component: {fileID: 3072621682943754083}
   - component: {fileID: -7684675673458184713}
-  - component: {fileID: 8819472990007022845}
   m_Layer: 0
   m_Name: PowerPellet
-  m_TagString: Untagged
+  m_TagString: PowerPellet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3072621682943754083
 SpriteRenderer:
@@ -106,16 +105,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8819472990007022845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3072621682943754081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b32ba549ec70b34a9ce8c79c1501148, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: -7684675673458184713}

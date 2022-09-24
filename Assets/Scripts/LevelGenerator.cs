@@ -95,31 +95,31 @@ public class LevelGenerator : MonoBehaviour
                         break;
                     case 1:
                         mapArray[y, x] = Instantiate(outsideCorner, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
-                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
+                        //mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                     case 2:
                         mapArray[y, x] = Instantiate(outsideWall, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
-                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
+                        //mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                     case 3:
                         mapArray[y, x] = Instantiate(insideCorner, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
-                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
+                        //mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                     case 4:
                         mapArray[y, x] = Instantiate(insideWall, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
-                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
+                        //mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                     case 5:
                         mapArray[y, x] = Instantiate(standardPellet, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
-                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
+                        //mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                     case 6:
                         mapArray[y, x] = Instantiate(powerPellet, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
-                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
+                        //mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                     case 7:
                         mapArray[y, x] = Instantiate(junction, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
-                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
+                        //mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                 }
                 xIndex++;
@@ -213,14 +213,6 @@ public class LevelGenerator : MonoBehaviour
                         }
                         if (levelMap[y - 1, x] == 5 || levelMap[y - 1, x] == 0)
                         {
-                            if (levelMap[y, x - 1] == 5 || levelMap[y, x - 1] == 0)
-                            {
-                                mapArray[y, x].transform.Rotate(0, 0, 0);
-                                break;
-                            }
-                        }
-                        if (levelMap[y - 1, x] == 5 || levelMap[y - 1, x] == 0)
-                        {
                             if (levelMap[y, x + 1] == 5 || levelMap[y, x + 1] == 0)
                             {
                                 mapArray[y, x].transform.Rotate(0, 0, 270);
@@ -272,7 +264,7 @@ public class LevelGenerator : MonoBehaviour
 
     void mirror()
     {
-        for (int y = 0; y < mapArray.GetLength(0) - 2; y++)
+        for (int y = 0; y < mapArray.GetLength(0) - 1; y++)
         {
             for (int x = 0; x < mapArray.GetLength(1); x++)
                 {
@@ -284,9 +276,25 @@ public class LevelGenerator : MonoBehaviour
         }
         LevelLayoutParent1 = Instantiate(LevelLayoutParent, new Vector3(1, 0, 0), Quaternion.identity);
         LevelLayoutParent1.transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
-        LevelLayoutParent2 = Instantiate(LevelLayoutParent, new Vector3(0, 0, 0), Quaternion.identity);
+        LevelLayoutParent2 = Instantiate(LevelLayoutParent1, new Vector3(0, 0, 0), Quaternion.identity);
         LevelLayoutParent2.transform.localScale = new Vector3(1.0f, -1.0f, 1.0f);
+        for (int y = 0; y < mapArray.GetLength(0); y++)
+        {
+            for (int x = 0; x < mapArray.GetLength(1); x++)
+            {
+                if (mapArray[y, x] != null)
+                {
+                    mapArray[y, x].transform.parent = LevelLayoutParent.transform;
+                }
+            }
+        }
         LevelLayoutParent3 = Instantiate(LevelLayoutParent, new Vector3(1, 0, 0), Quaternion.identity);
         LevelLayoutParent3.transform.localScale = new Vector3(-1.0f, -1.0f, 1.0f);
+        GameObject[] pelletArray = GameObject.FindGameObjectsWithTag("PowerPellet");
+        foreach(GameObject o in pelletArray)
+        {
+            Animator theAnimator = o.GetComponent<Animator>();
+            theAnimator.enabled = true;
+        }
     }
 }
