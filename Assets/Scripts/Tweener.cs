@@ -25,6 +25,9 @@ public class Tweener : MonoBehaviour
                 activeTween.Target.position = Vector3.Lerp(activeTween.StartPos, activeTween.EndPos, thisTime);
             }
             else if (distance <= 0.1f)
+
+
+
             {
                 //animator.SetTrigger("RotationTrigger");
                 activeTween.Target.position = activeTween.EndPos;
