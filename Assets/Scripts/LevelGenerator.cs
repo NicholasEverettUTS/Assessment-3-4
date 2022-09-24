@@ -27,6 +27,24 @@ public class LevelGenerator : MonoBehaviour
     private GameObject LevelLayoutParent1;
     private GameObject LevelLayoutParent2;
     private GameObject LevelLayoutParent3;
+
+    [SerializeField]
+    private GameObject outsideCorner;
+    [SerializeField]
+    private GameObject outsideWall;
+    [SerializeField]
+    private GameObject insideCorner;
+    [SerializeField]
+    private GameObject insideWall;
+    [SerializeField]
+    private GameObject standardPellet;
+    [SerializeField]
+    private GameObject powerPellet;
+    [SerializeField]
+    private GameObject junction;
+
+    int xIndex = -13;
+    int yIndex = 14;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +59,7 @@ public class LevelGenerator : MonoBehaviour
         Destroy(LevelLayoutParent1);
         Destroy(LevelLayoutParent2);
         Destroy(LevelLayoutParent3);
+        generator();
     }
 
     // Update is called once per frame
@@ -58,5 +77,23 @@ public class LevelGenerator : MonoBehaviour
         Destroy(LevelLayoutParent1);
         Destroy(LevelLayoutParent2);
         Destroy(LevelLayoutParent3);
+    }
+
+    void generator()
+    {
+        for (int i = 0; i < levelMap.GetLength(0); i++)
+        {
+            for (int x = 0; x < levelMap.GetLength(1); x++)
+            {
+                if(levelMap[i,x] == 1)
+                {
+                    Instantiate(outsideCorner, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                }
+
+                xIndex++;
+            }
+            yIndex--;
+            xIndex = -13;
+        }
     }
 }

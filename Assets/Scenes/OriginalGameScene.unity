@@ -32157,6 +32157,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efea8f6bba2c43743abeb7da3b9ed9c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outsideCorner: {fileID: 733317318987649691, guid: fd55f2211fce4e147909b6641b0b6c76, type: 3}
+  outsideWall: {fileID: 704327198945241683, guid: ab39314906c9589498f632970cccad45, type: 3}
+  insideCorner: {fileID: 2215764594291057413, guid: eeac12533f8c72f45bc1c65f65989b64, type: 3}
+  insideWall: {fileID: 972551037855742828, guid: e65daaf9d209c774a9ea58b02907a300, type: 3}
+  standardPellet: {fileID: 1513469912769782736, guid: 8ad180519a1a5804ba285a8307cfbbb7, type: 3}
+  powerPellet: {fileID: 3072621682943754081, guid: 8ed7a3ef3c561ff4e87ef47e850546db, type: 3}
+  junction: {fileID: 7023498169398687791, guid: 36d79972626d2c24d8169e05dee281d0, type: 3}
 --- !u!1001 &1582332872
 PrefabInstance:
   m_ObjectHideFlags: 0

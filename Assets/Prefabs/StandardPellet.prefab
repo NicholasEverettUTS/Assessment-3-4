@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 32680206362422071}
   - component: {fileID: 7610879423910265987}
   m_Layer: 0
-  m_Name: NormalPellet
+  m_Name: StandardPellet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
