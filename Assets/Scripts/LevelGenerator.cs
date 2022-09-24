@@ -95,24 +95,31 @@ public class LevelGenerator : MonoBehaviour
                         break;
                     case 1:
                         mapArray[y, x] = Instantiate(outsideCorner, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                     case 2:
                         mapArray[y, x] = Instantiate(outsideWall, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                     case 3:
                         mapArray[y, x] = Instantiate(insideCorner, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                     case 4:
                         mapArray[y, x] = Instantiate(insideWall, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                     case 5:
                         mapArray[y, x] = Instantiate(standardPellet, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                     case 6:
                         mapArray[y, x] = Instantiate(powerPellet, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                     case 7:
                         mapArray[y, x] = Instantiate(junction, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        mapArray[y, x].transform.parent = LevelLayoutParent.transform;
                         break;
                 }
                 xIndex++;
@@ -272,22 +279,13 @@ public class LevelGenerator : MonoBehaviour
                 if (mapArray[y, x] != null)
                 {
                     mapArray[y, x].transform.parent = LevelLayoutParent.transform;
-                }
+               }
             }
         }
-        Debug.Log(mapArray[13, 10].transform.position);
-        Debug.Log(mapArray[14, 10].transform.position);
         LevelLayoutParent1 = Instantiate(LevelLayoutParent, new Vector3(1, 0, 0), Quaternion.identity);
         LevelLayoutParent1.transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
         LevelLayoutParent2 = Instantiate(LevelLayoutParent, new Vector3(0, 0, 0), Quaternion.identity);
         LevelLayoutParent2.transform.localScale = new Vector3(1.0f, -1.0f, 1.0f);
-        for (int x = 0; x < levelMap.GetLength(1); x++)
-        {
-            if (mapArray[levelMap.GetLength(0) - 1, x] != null)
-            {
-                mapArray[levelMap.GetLength(0) - 1, x].transform.parent = LevelLayoutParent.transform;
-            }
-        }
         LevelLayoutParent3 = Instantiate(LevelLayoutParent, new Vector3(1, 0, 0), Quaternion.identity);
         LevelLayoutParent3.transform.localScale = new Vector3(-1.0f, -1.0f, 1.0f);
     }
