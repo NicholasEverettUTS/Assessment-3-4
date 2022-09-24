@@ -85,11 +85,29 @@ public class LevelGenerator : MonoBehaviour
         {
             for (int x = 0; x < levelMap.GetLength(1); x++)
             {
-                if(levelMap[i,x] == 1)
-                {
-                    Instantiate(outsideCorner, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                switch(levelMap[i, x]){
+                    case 1:
+                        Instantiate(outsideCorner, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        break;
+                    case 2:
+                        Instantiate(outsideWall, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        break;
+                    case 3:
+                        Instantiate(insideCorner, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        break;
+                    case 4:
+                        Instantiate(insideWall, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        break;
+                    case 5:
+                        Instantiate(standardPellet, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        break;
+                    case 6:
+                        Instantiate(powerPellet, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        break;
+                    case 7:
+                        Instantiate(junction, new Vector3(xIndex, yIndex, 0), Quaternion.identity);
+                        break;
                 }
-
                 xIndex++;
             }
             yIndex--;
