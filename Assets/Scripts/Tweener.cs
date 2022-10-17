@@ -42,13 +42,13 @@ public class Tweener : MonoBehaviour
         activeTween = new Tween(targetObject, startPos, endPos, Time.time, duration);
     }
 
-    public bool TweenExists(Transform target)
-    {
-        Transform tweenTarget = activeTween.Target;
-        if (tweenTarget == target)
-        {
-            return true;
-        }
-        return false;
-    }
+    //public bool TweenExists(Transform target)
+    //{
+        //Transform tweenTarget = activeTween.Target;
+        //if (tweenTarget == target)
+        //{
+            //return true;
+        //}
+        //return false;
+    //}
 }
