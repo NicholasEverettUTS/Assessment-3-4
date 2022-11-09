@@ -29,7 +29,7 @@ public class PacStudentMovementHandler : MonoBehaviour
         {
             tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(-10f, -3f, 0.0f), 3f);
         }
-        if (thisTransform.position.x == -10f && thisTransform.position.y <= -3f)
+        if (thisTransform.position.x == -10f && thisTransform.position.y == -3f)
         {   
             tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(-10f, 3f, 0.0f), 2f);
         }
