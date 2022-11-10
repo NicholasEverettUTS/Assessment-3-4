@@ -23,4 +23,9 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(1);
         //DontDestroyOnLoad(gameObject);
     }
+
+    public void exitGame()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

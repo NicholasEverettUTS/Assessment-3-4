@@ -18,22 +18,22 @@ public class PacStudentController : MonoBehaviour
     {
         if (Input.GetKeyDown("d"))
         {
-            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(pacStudent.transform.position.x + 100, 0.0f, 0.0f), 3f);
+            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(pacStudent.transform.position.x + 1, pacStudent.transform.position.y, 0.0f), 0.2f);
         }
 
         if (Input.GetKeyDown("s"))
         {
-
+            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(pacStudent.transform.position.x, pacStudent.transform.position.y - 1, 0.0f), 0.2f);
         }
 
         if (Input.GetKeyDown("a"))
         {
-
+            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(pacStudent.transform.position.x - 1, pacStudent.transform.position.y, 0.0f), 0.2f);
         }
 
         if (Input.GetKeyDown("w"))
         {
-
+            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(pacStudent.transform.position.x, pacStudent.transform.position.y + 1, 0.0f), 0.2f);
         }
     }
 }

@@ -5,11 +5,11 @@ using UnityEngine;
 public class Tweener : MonoBehaviour
 {
     private Tween activeTween;
-    public Animator animator;
+    //public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-        animator.SetTrigger("RotationTrigger");
+        //animator.SetTrigger("RotationTrigger");
     }
 
     // Update is called once per frame
@@ -38,7 +38,7 @@ public class Tweener : MonoBehaviour
 
     public void AddTween(Transform targetObject, Vector3 startPos, Vector3 endPos, float duration)
     {
-        animator.SetTrigger("RotationTrigger");
+        //animator.SetTrigger("RotationTrigger");
         activeTween = new Tween(targetObject, startPos, endPos, Time.time, duration);
     }
 
