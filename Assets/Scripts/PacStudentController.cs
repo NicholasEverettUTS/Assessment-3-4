@@ -43,11 +43,14 @@ public class PacStudentController : MonoBehaviour
         {1,2,2,2,2,2,2,2,2,2,2,2,2,7,7,2,2,2,2,2,2,2,2,2,2,2,2,1},
     };
 
+    int[][] superArray = new int[][]
+    {
+        new int[] {1},
+    };
     // Start is called before the first frame update
     void Start()
     {
-        tweener = tweener = GetComponent<Tweener>();
-        Debug.Log(pacStudent.transform.position.y * 1 - 1);
+        tweener = GetComponent<Tweener>();
     }
 
     // Update is called once per frame
@@ -115,89 +118,25 @@ public class PacStudentController : MonoBehaviour
                 case 'd':
                     if (pacStudent.transform.position.x + 1 > -14 && pacStudent.transform.position.x + 1 < 14)
                     {
-                        float xCoordinate = pacStudent.transform.position.x + 1;
-                        float yCoordinate = pacStudent.transform.position.y;
-                        for (int y = 14; y > -15; y--)
-                        {
-                            for (int x = -13; x < 15; x++)
-                            {
-                                if (xCoordinate == x && yCoordinate == y)
-                                {
-                                    if (levelMap[(int)xCoordinate + 13, (int)yCoordinate * -1 + 14] == 5 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate * -1 + 14] == 6 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate * -1 + 14] == 0)
-                                    {
-                                        currentInput = 'd';
-                                    }
-                                }
-                            }
-                        }
+                        currentInput = 'd';
                     }
                     break;
                 case 's':
                     if (pacStudent.transform.position.y *1 -1 > -14 && pacStudent.transform.position.y *1 -1 < 15)
                     {
-                        float xCoordinate = pacStudent.transform.position.x;
-                        float yCoordinate = pacStudent.transform.position.y - 1;
-                        for (int y = 14; y > -15; y--)
-                        {
-                            for (int x = -13; x < 15; x++)
-                            {
-                                if (xCoordinate == x && yCoordinate == y)
-                                {
-                                    if (levelMap[(int)xCoordinate + 13, (int)yCoordinate *1 + 14] == 5 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate *1 + 14] == 6 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate *1 + 14] == 0)
-                                    {
-                                        currentInput = 's';
-                                    }
-                                }
-                            }
-                        }
+                         currentInput = 's';
                     }
                     break;
                 case 'a':
                     if (pacStudent.transform.position.x + 1 > -13 && pacStudent.transform.position.x + 1 < 14)
                     {
-                        float xCoordinate = pacStudent.transform.position.x - 1;
-                        float yCoordinate = pacStudent.transform.position.y;
-                        for (int y = 14; y > -15; y--)
-                        {
-                            for (int x = -13; x < 15; x++)
-                            {
-                                if (xCoordinate == x && yCoordinate == y)
-                                {
-                                    if (levelMap[(int)xCoordinate + 13, (int)yCoordinate +13] == 5 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate + 14] == 6 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate + 14] == 0)
-                                    {
-                                        currentInput = 'a';
-                                    }
-                                }
-                            }
-                        }
+                        currentInput = 'a';
                     }
                     break;
                 case 'w':
                     if (pacStudent.transform.position.y * 1 - 1 > -14 && pacStudent.transform.position.y * 1 - 1 < 15)
                     {
-                        float xCoordinate = pacStudent.transform.position.x;
-                        float yCoordinate = pacStudent.transform.position.y + 1;
-                        for (int y = 14; y > -15; y--)
-                        {
-                            for (int x = -13; x < 15; x++)
-                            {
-                                if (xCoordinate == x && yCoordinate == y)
-                                {
-                                    if (levelMap[(int)xCoordinate + 13, (int)yCoordinate * 1 + 14] == 5 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate * 1 + 14] == 6 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate * 1 + 14] == 0)
-                                    {
-                                        currentInput = 'w';
-                                    }
-                                }
-                            }
-                        }
+                        currentInput = 'w';
                     }
                     break;
             }
@@ -208,7 +147,7 @@ public class PacStudentController : MonoBehaviour
             switch (c)
             {
                 case 'd':
-                    if (pacStudent.transform.position.x + 1 > -14 && pacStudent.transform.position.x + 1 < 14)
+                    if (pacStudent.transform.position.x + 1 > -13 && pacStudent.transform.position.x + 1 < 15)
                     {
                         float xCoordinate = pacStudent.transform.position.x + 1;
                         float yCoordinate = pacStudent.transform.position.y;
@@ -218,9 +157,9 @@ public class PacStudentController : MonoBehaviour
                             {
                                 if (xCoordinate == x && yCoordinate == y)
                                 {
-                                    if (levelMap[(int)xCoordinate + 13, (int)yCoordinate * -1 + 14] == 5 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate * -1 + 14] == 6 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate * -1 + 14] == 0)
+                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
                                     {
                                         doMove = true;
                                     }
@@ -234,7 +173,7 @@ public class PacStudentController : MonoBehaviour
                     }
                     break;
                 case 's':
-                    if (pacStudent.transform.position.y * 1 - 1 > -14 && pacStudent.transform.position.y * 1 - 1 < 15)
+                    if (pacStudent.transform.position.y * 1 + 1 > -14 && pacStudent.transform.position.y * 1 + 1 < 15)
                     {
                         float xCoordinate = pacStudent.transform.position.x;
                         float yCoordinate = pacStudent.transform.position.y - 1;
@@ -244,10 +183,9 @@ public class PacStudentController : MonoBehaviour
                             {
                                 if (xCoordinate == x && yCoordinate == y)
                                 {
-
-                                    if (levelMap[(int)xCoordinate + 13, (int)yCoordinate * 1 + 14] == 5 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate * 1 + 14] == 6 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate * 1 + 14] == 0)
+                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
                                     {
                                         doMove = true;
                                     }
@@ -261,7 +199,7 @@ public class PacStudentController : MonoBehaviour
                     }
                     break;
                 case 'a':
-                    if (pacStudent.transform.position.x + 1 > -13 && pacStudent.transform.position.x + 1 < 14)
+                    if (pacStudent.transform.position.x - 1 > -14 && pacStudent.transform.position.x - 1 < 14)
                     {
                         float xCoordinate = pacStudent.transform.position.x - 1;
                         float yCoordinate = pacStudent.transform.position.y;
@@ -271,10 +209,9 @@ public class PacStudentController : MonoBehaviour
                             {
                                 if (xCoordinate == x && yCoordinate == y)
                                 {
-
-                                    if (levelMap[(int)xCoordinate + 13, (int)yCoordinate + 13] == 5 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate + 14] == 6 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate + 14] == 0)
+                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
                                     {
                                         doMove = true;
                                     }
@@ -298,9 +235,9 @@ public class PacStudentController : MonoBehaviour
                             {
                                 if (xCoordinate == x && yCoordinate == y)
                                 {
-                                    if (levelMap[(int)xCoordinate + 13, (int)yCoordinate * 1 + 14] == 5 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate * 1 + 14] == 6 ||
-                                        levelMap[(int)xCoordinate + 13, (int)yCoordinate * 1 + 14] == 0)
+                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
                                     {
                                         doMove = true;
                                     }

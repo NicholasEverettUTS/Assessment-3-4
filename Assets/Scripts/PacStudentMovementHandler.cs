@@ -12,7 +12,7 @@ public class PacStudentMovementHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        tweener = tweener = GetComponent<Tweener>();
+        tweener = GetComponent<Tweener>();
     }
 
     // Update is called once per frame
