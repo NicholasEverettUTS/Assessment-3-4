@@ -24,8 +24,8 @@ public class PacStudentController : MonoBehaviour
         {1,2,2,2,2,1,5,4,3,4,4,3,0,4,4,0,3,4,4,3,4,5,1,2,2,2,2,1},
         {0,0,0,0,0,2,5,4,3,4,4,3,0,3,3,0,3,4,4,3,4,5,2,0,0,0,0,0},
         {0,0,0,0,0,2,5,4,4,0,0,0,0,0,0,0,0,0,0,4,4,5,2,0,0,0,0,0},
+        {0,0,0,0,0,2,5,4,4,0,3,4,4,0,0,4,4,3,0,4,4,5,2,0,0,0,0,0},
         {2,2,2,2,2,1,5,3,3,0,4,0,0,0,0,0,0,4,0,3,3,5,1,2,2,2,2,2},
-        {0,0,0,0,0,0,5,0,0,0,4,0,0,0,0,0,0,4,0,0,0,5,0,0,0,0,0,0},
         {0,0,0,0,0,0,5,0,0,0,4,0,0,0,0,0,0,4,0,0,0,5,0,0,0,0,0,0},
         {2,2,2,2,2,1,5,3,3,0,4,0,0,0,0,0,0,4,0,3,3,5,1,2,2,2,2,2},
         {0,0,0,0,0,2,5,4,4,0,3,4,4,0,0,4,4,3,0,4,4,5,2,0,0,0,0,0},
@@ -79,6 +79,8 @@ public class PacStudentController : MonoBehaviour
 
         inputter(lastInput);
         obstacleCheck(currentInput);
+        Debug.Log(lastInput);
+        Debug.Log(currentInput);
 
         switch (currentInput) { 
             case 'd':
@@ -118,25 +120,90 @@ public class PacStudentController : MonoBehaviour
                 case 'd':
                     if (pacStudent.transform.position.x + 1 > -14 && pacStudent.transform.position.x + 1 < 14)
                     {
-                        currentInput = 'd';
+                        float xCoordinate = pacStudent.transform.position.x + 1;
+                        float yCoordinate = pacStudent.transform.position.y;
+                        for (int y = 14; y > -15; y--)
+                        {
+                            for (int x = -13; x < 15; x++)
+                            {
+                                if (xCoordinate == x && yCoordinate == y)
+                                {
+                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
+                                    {
+                                        currentInput = 'd';
+                                    }
+                                }
+                            }
+                        }
                     }
                     break;
                 case 's':
                     if (pacStudent.transform.position.y *1 -1 > -14 && pacStudent.transform.position.y *1 -1 < 15)
                     {
-                         currentInput = 's';
+                        float xCoordinate = pacStudent.transform.position.x;
+                        float yCoordinate = pacStudent.transform.position.y - 1;
+                        for (int y = 14; y > -15; y--)
+                        {
+                            for (int x = -13; x < 15; x++)
+                            {
+                                if (xCoordinate == x && yCoordinate == y)
+                                {
+                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
+                                    {
+                                        currentInput = 's';
+                                    }
+
+                                }
+                            }
+                        }
                     }
                     break;
                 case 'a':
                     if (pacStudent.transform.position.x + 1 > -13 && pacStudent.transform.position.x + 1 < 14)
                     {
-                        currentInput = 'a';
+                        float xCoordinate = pacStudent.transform.position.x - 1;
+                        float yCoordinate = pacStudent.transform.position.y;
+                        for (int y = 14; y > -15; y--)
+                        {
+                            for (int x = -13; x < 15; x++)
+                            {
+                                if (xCoordinate == x && yCoordinate == y)
+                                {
+                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
+                                    {
+                                        currentInput = 'a';
+                                    }
+                                }
+                            }
+                        }
                     }
                     break;
                 case 'w':
                     if (pacStudent.transform.position.y * 1 - 1 > -14 && pacStudent.transform.position.y * 1 - 1 < 15)
                     {
-                        currentInput = 'w';
+                        float xCoordinate = pacStudent.transform.position.x;
+                        float yCoordinate = pacStudent.transform.position.y + 1;
+                        for (int y = 14; y > -15; y--)
+                        {
+                            for (int x = -13; x < 15; x++)
+                            {
+                                if (xCoordinate == x && yCoordinate == y)
+                                {
+                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
+                                    {
+                                        currentInput = 'w';
+                                    }
+                                }
+                            }
+                        }
                     }
                     break;
             }
