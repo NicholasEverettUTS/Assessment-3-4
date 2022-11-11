@@ -7,6 +7,8 @@ public class PacStudentMovementHandler : MonoBehaviour
     private Tweener tweener;
     [SerializeField]
     private GameObject pacStudent;
+
+
     // Start is called before the first frame update
     void Start()
     {

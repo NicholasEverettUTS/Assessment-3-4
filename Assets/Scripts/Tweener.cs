@@ -17,6 +17,7 @@ public class Tweener : MonoBehaviour
     {
         if (activeTween != null)
         {
+            Debug.Log("hit3");
             float distance = Vector3.Distance(activeTween.Target.position, activeTween.EndPos);
             float timePassed = Time.time - activeTween.StartTime;
             if (distance > 0.1f)
@@ -44,10 +45,13 @@ public class Tweener : MonoBehaviour
 
     public bool TweenExists(Transform target)
     {
-        Transform tweenTarget = activeTween.Target;
-        if (tweenTarget == target)
+        if (activeTween != null)
         {
-            return true;
+            Transform tweenTarget = activeTween.Target;
+            if (tweenTarget == target)
+            {
+                return true;
+            }
         }
         return false;
     }
