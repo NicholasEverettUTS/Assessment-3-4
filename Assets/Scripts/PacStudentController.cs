@@ -64,7 +64,6 @@ public class PacStudentController : MonoBehaviour
         particles = pacStudent.transform.GetChild(0).gameObject.GetComponent<ParticleSystem>();
         particles.Stop(true);
         sound = pacStudent.GetComponent<AudioSource>();
-        //sound.enabled = false;
     }
 
     // Update is called once per frame
