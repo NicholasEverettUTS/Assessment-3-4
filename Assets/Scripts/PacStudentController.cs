@@ -92,323 +92,332 @@ public class PacStudentController : MonoBehaviour
         inputter(lastInput);
         obstacleCheck(currentInput);
         mover(currentInput);
+    }
 
-        void inputter(char c)
+    void inputter(char c)
+    {
+        switch (c)
         {
-            switch (c)
-            {
-                case 'd':
-                    if (pacStudent.transform.position.x + 1 > -14 && pacStudent.transform.position.x + 1 < 14)
+            case 'd':
+                if (pacStudent.transform.position.x + 1 > -14 && pacStudent.transform.position.x + 1 < 14)
+                {
+                    float xCoordinate = pacStudent.transform.position.x + 1;
+                    float yCoordinate = pacStudent.transform.position.y;
+                    for (int y = 14; y > -15; y--)
                     {
-                        float xCoordinate = pacStudent.transform.position.x + 1;
-                        float yCoordinate = pacStudent.transform.position.y;
-                        for (int y = 14; y > -15; y--)
+                        for (int x = -13; x < 15; x++)
                         {
-                            for (int x = -13; x < 15; x++)
+                            if (xCoordinate == x && yCoordinate == y)
                             {
-                                if (xCoordinate == x && yCoordinate == y)
+                                if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
                                 {
-                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
-                                    {
-                                        currentInput = 'd';
-                                    }
+                                    currentInput = 'd';
                                 }
                             }
                         }
                     }
-                    break;
-                case 's':
-                    if (pacStudent.transform.position.y *1 -1 > -14 && pacStudent.transform.position.y *1 -1 < 15)
+                }
+                break;
+            case 's':
+                if (pacStudent.transform.position.y * 1 - 1 > -14 && pacStudent.transform.position.y * 1 - 1 < 15)
+                {
+                    float xCoordinate = pacStudent.transform.position.x;
+                    float yCoordinate = pacStudent.transform.position.y - 1;
+                    for (int y = 14; y > -15; y--)
                     {
-                        float xCoordinate = pacStudent.transform.position.x;
-                        float yCoordinate = pacStudent.transform.position.y - 1;
-                        for (int y = 14; y > -15; y--)
+                        for (int x = -13; x < 15; x++)
                         {
-                            for (int x = -13; x < 15; x++)
+                            if (xCoordinate == x && yCoordinate == y)
                             {
-                                if (xCoordinate == x && yCoordinate == y)
+                                if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
                                 {
-                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
-                                    {
-                                        currentInput = 's';
-                                    }
+                                    currentInput = 's';
+                                }
 
-                                }
                             }
                         }
                     }
-                    break;
-                case 'a':
-                    if (pacStudent.transform.position.x + 1 > -13 && pacStudent.transform.position.x + 1 < 15)
+                }
+                break;
+            case 'a':
+                if (pacStudent.transform.position.x + 1 > -13 && pacStudent.transform.position.x + 1 < 15)
+                {
+                    float xCoordinate = pacStudent.transform.position.x - 1;
+                    float yCoordinate = pacStudent.transform.position.y;
+                    for (int y = 14; y > -15; y--)
                     {
-                        float xCoordinate = pacStudent.transform.position.x - 1;
-                        float yCoordinate = pacStudent.transform.position.y;
-                        for (int y = 14; y > -15; y--)
+                        for (int x = -13; x < 14; x++)
                         {
-                            for (int x = -13; x < 14; x++)
+                            if (xCoordinate == x && yCoordinate == y)
                             {
-                                if (xCoordinate == x && yCoordinate == y)
+                                if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
                                 {
-                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
-                                    {
-                                        currentInput = 'a';
-                                    }
+                                    currentInput = 'a';
                                 }
                             }
                         }
                     }
-                    break;
-                case 'w':
-                    if (pacStudent.transform.position.y * - 1 - 1 > -15 && pacStudent.transform.position.y * - 1 - 1 < 15)
+                }
+                break;
+            case 'w':
+                if (pacStudent.transform.position.y * -1 - 1 > -15 && pacStudent.transform.position.y * -1 - 1 < 15)
+                {
+                    float xCoordinate = pacStudent.transform.position.x;
+                    float yCoordinate = pacStudent.transform.position.y + 1;
+                    for (int y = 14; y > -15; y--)
                     {
-                        float xCoordinate = pacStudent.transform.position.x;
-                        float yCoordinate = pacStudent.transform.position.y + 1;
-                        for (int y = 14; y > -15; y--)
+                        for (int x = -13; x < 15; x++)
                         {
-                            for (int x = -13; x < 15; x++)
+                            if (xCoordinate == x && yCoordinate == y)
                             {
-                                if (xCoordinate == x && yCoordinate == y)
+                                if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
                                 {
-                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
-                                    {
-                                        currentInput = 'w';
-                                    }
+                                    currentInput = 'w';
                                 }
                             }
                         }
                     }
-                    break;
-            }
-            
-        }
-        void obstacleCheck(char c)
-        {
-            switch (c)
-            {
-                case 'd':
-                    if (pacStudent.transform.position.x + 1 > -13 && pacStudent.transform.position.x + 1 < 15)
-                    {
-                        float xCoordinate = pacStudent.transform.position.x + 1;
-                        float yCoordinate = pacStudent.transform.position.y;
-                        for (int y = 14; y > -15; y--)
-                        {
-                            for (int x = -13; x < 15; x++)
-                            {
-                                if (xCoordinate == x && yCoordinate == y)
-                                {
-                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
-                                    {
-                                        doMove = true;
-                                        pacStudent.GetComponent<Animator>().enabled = true;
-                                        pacStudent.GetComponent<Animator>().SetTrigger("RightWalkTrigger");
-                                        pacStudent.GetComponent<Animator>().ResetTrigger("DownWalkTrigger");
-                                        pacStudent.GetComponent<Animator>().ResetTrigger("LeftWalkTrigger");
-                                        pacStudent.GetComponent<Animator>().ResetTrigger("UpWalkTrigger");
-                                        particleObject.SetActive(true);
-                                        audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
-                                        particles.Play();
-                                    }
-                                    else
-                                    {
-                                        doMove = false;
-                                        audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
-                                        pacStudent.GetComponent<Animator>().enabled = false;
-                                        particles.Stop(true);
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    break;
-                case 's':
-                    if (pacStudent.transform.position.y * 1 + 1 > -14 && pacStudent.transform.position.y * 1 + 1 < 15)
-                    {
-                        float xCoordinate = pacStudent.transform.position.x;
-                        float yCoordinate = pacStudent.transform.position.y - 1;
-                        for (int y = 14; y > -15; y--)
-                        {
-                            for (int x = -13; x < 15; x++)
-                            {
-                                if (xCoordinate == x && yCoordinate == y)
-                                {
-                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
-                                    {
-                                        doMove = true;
-                                        pacStudent.GetComponent<Animator>().enabled = true;
-                                        pacStudent.GetComponent<Animator>().ResetTrigger("RightWalkTrigger");
-                                        pacStudent.GetComponent<Animator>().SetTrigger("DownWalkTrigger");
-                                        pacStudent.GetComponent<Animator>().ResetTrigger("LeftWalkTrigger");
-                                        pacStudent.GetComponent<Animator>().ResetTrigger("UpWalkTrigger");
-                                        particleObject.SetActive(true);
-                                        audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
-                                        particles.Play();
-                                    }
-                                    else
-                                    {
-                                        doMove = false;
-                                        pacStudent.GetComponent<Animator>().enabled = false;
-                                        audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
-                                        particles.Stop(true);
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    break;
-                case 'a':
-                    if (pacStudent.transform.position.x - 1 > -14 && pacStudent.transform.position.x - 1 < 14)
-                    {
-                        float xCoordinate = pacStudent.transform.position.x - 1;
-                        float yCoordinate = pacStudent.transform.position.y;
-                        for (int y = 14; y > -15; y--)
-                        {
-                            for (int x = -13; x < 15; x++)
-                            {
-                                if (xCoordinate == x && yCoordinate == y)
-                                {
-                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
-                                    {
-                                        doMove = true;
-                                        pacStudent.GetComponent<Animator>().enabled = true;
-                                        pacStudent.GetComponent<Animator>().ResetTrigger("RightWalkTrigger");
-                                        pacStudent.GetComponent<Animator>().ResetTrigger("DownWalkTrigger");
-                                        pacStudent.GetComponent<Animator>().SetTrigger("LeftWalkTrigger");
-                                        pacStudent.GetComponent<Animator>().ResetTrigger("UpWalkTrigger");
-                                        particleObject.SetActive(true);
-                                        audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
-                                        particles.Play();
-                                    }
-                                    else
-                                    {
-                                        doMove = false;
-                                        pacStudent.GetComponent<Animator>().enabled = false;
-                                        audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
-                                        particles.Stop(true);
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    break;
-                case 'w':
-                    if (pacStudent.transform.position.y * - 1 - 1 > -15 && pacStudent.transform.position.y * - 1 - 1 < 15)
-                    {
-                        float xCoordinate = pacStudent.transform.position.x;
-                        float yCoordinate = pacStudent.transform.position.y + 1;
-                        for (int y = 14; y > -15; y--)
-                        {
-                            for (int x = -13; x < 15; x++)
-                            {
-                                if (xCoordinate == x && yCoordinate == y)
-                                {
-
-                                    if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
-                                        levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
-                                    {
-                                        doMove = true;
-                                        pacStudent.GetComponent<Animator>().enabled = true;
-                                        pacStudent.GetComponent<Animator>().ResetTrigger("RightWalkTrigger");
-                                        pacStudent.GetComponent<Animator>().ResetTrigger("DownWalkTrigger");
-                                        pacStudent.GetComponent<Animator>().ResetTrigger("LeftWalkTrigger");
-                                        pacStudent.GetComponent<Animator>().SetTrigger("UpWalkTrigger");
-                                        particleObject.SetActive(true);
-                                        audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
-                                        particles.Play();
-                                    }
-                                    else
-                                    {
-                                        doMove = false;
-                                        pacStudent.GetComponent<Animator>().enabled = false;
-                                        audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
-                                        particles.Stop(true);
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    break;
-            }
-        }
-        void mover(char c)
-        {
-            switch (c)
-            {
-                case 'd':
-                    if (tweener.TweenExists(pacStudent.transform) == false)
-                    {
-                        if (doMove == true)
-                            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(pacStudent.transform.position.x + 1, pacStudent.transform.position.y, 0.0f), 0.2f);
-                    }
-                    break;
-                case 's':
-                    if (tweener.TweenExists(pacStudent.transform) == false)
-                    {
-                        if (doMove == true)
-                            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(pacStudent.transform.position.x, pacStudent.transform.position.y - 1, 0.0f), 0.2f);
-                    }
-                    break;
-                case 'a':
-                    if (tweener.TweenExists(pacStudent.transform) == false)
-                    {
-                        if (doMove == true)
-                            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(pacStudent.transform.position.x - 1, pacStudent.transform.position.y, 0.0f), 0.2f);
-                    }
-                    break;
-                case 'w':
-                    if (tweener.TweenExists(pacStudent.transform) == false)
-                    {
-                        if (doMove == true)
-                            tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(pacStudent.transform.position.x, pacStudent.transform.position.y + 1, 0.0f), 0.2f);
-                    }
-                    break;
-            }
-        }
-        void audioSwitch(int i)
-        {
-            if (i == 5 || i == 6)
-            {
-                sound.enabled = true;
-                sound.clip = clip1;
-                sound.Play();
-            }
-            else if(i == 0)
-            {
-                sound.enabled = true;
-                sound.clip = clip2;
-                sound.Play();
-            }
-            else
-            {         
-                StartCoroutine(audioSwitch2());
-            }
+                }
+                break;
         }
 
-        IEnumerator audioSwitch2()
+    }
+    private void obstacleCheck(char c)
+    {
+        switch (c)
         {
-            sound.clip = clip3;
-            if (sound.enabled == true && z == 0){
-                z++;
-                Debug.Log("hit");
-                sound.Play();
-                yield return new WaitWhile(() => sound.isPlaying);
-                sound.enabled = false;
-                z = 0;
-            }
+            case 'd':
+                if (pacStudent.transform.position.x + 1 > -13 && pacStudent.transform.position.x + 1 < 15)
+                {
+                    float xCoordinate = pacStudent.transform.position.x + 1;
+                    float yCoordinate = pacStudent.transform.position.y;
+                    for (int y = 14; y > -15; y--)
+                    {
+                        for (int x = -13; x < 15; x++)
+                        {
+                            if (xCoordinate == x && yCoordinate == y)
+                            {
+                                if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
+                                {
+                                    doMove = true;
+                                    pacStudent.GetComponent<Animator>().enabled = true;
+                                    pacStudent.GetComponent<Animator>().SetTrigger("RightWalkTrigger");
+                                    pacStudent.GetComponent<Animator>().ResetTrigger("DownWalkTrigger");
+                                    pacStudent.GetComponent<Animator>().ResetTrigger("LeftWalkTrigger");
+                                    pacStudent.GetComponent<Animator>().ResetTrigger("UpWalkTrigger");
+                                    particleObject.SetActive(true);
+                                    audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
+                                    particles.Play();
+                                }
+                                else
+                                {
+                                    doMove = false;
+                                    audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
+                                    pacStudent.GetComponent<Animator>().enabled = false;
+                                    particles.Stop(true);
+                                }
+                            }
+                        }
+                    }
+                }
+                break;
+            case 's':
+                if (pacStudent.transform.position.y * 1 + 1 > -14 && pacStudent.transform.position.y * 1 + 1 < 15)
+                {
+                    float xCoordinate = pacStudent.transform.position.x;
+                    float yCoordinate = pacStudent.transform.position.y - 1;
+                    for (int y = 14; y > -15; y--)
+                    {
+                        for (int x = -13; x < 15; x++)
+                        {
+                            if (xCoordinate == x && yCoordinate == y)
+                            {
+                                if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
+                                {
+                                    doMove = true;
+                                    pacStudent.GetComponent<Animator>().enabled = true;
+                                    pacStudent.GetComponent<Animator>().ResetTrigger("RightWalkTrigger");
+                                    pacStudent.GetComponent<Animator>().SetTrigger("DownWalkTrigger");
+                                    pacStudent.GetComponent<Animator>().ResetTrigger("LeftWalkTrigger");
+                                    pacStudent.GetComponent<Animator>().ResetTrigger("UpWalkTrigger");
+                                    particleObject.SetActive(true);
+                                    audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
+                                    particles.Play();
+                                }
+                                else
+                                {
+                                    doMove = false;
+                                    pacStudent.GetComponent<Animator>().enabled = false;
+                                    audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
+                                    particles.Stop(true);
+                                }
+                            }
+                        }
+                    }
+                }
+                break;
+            case 'a':
+                if (pacStudent.transform.position.x - 1 > -14 && pacStudent.transform.position.x - 1 < 14)
+                {
+                    float xCoordinate = pacStudent.transform.position.x - 1;
+                    float yCoordinate = pacStudent.transform.position.y;
+                    for (int y = 14; y > -15; y--)
+                    {
+                        for (int x = -13; x < 15; x++)
+                        {
+                            if (xCoordinate == x && yCoordinate == y)
+                            {
+                                if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
+                                {
+                                    doMove = true;
+                                    pacStudent.GetComponent<Animator>().enabled = true;
+                                    pacStudent.GetComponent<Animator>().ResetTrigger("RightWalkTrigger");
+                                    pacStudent.GetComponent<Animator>().ResetTrigger("DownWalkTrigger");
+                                    pacStudent.GetComponent<Animator>().SetTrigger("LeftWalkTrigger");
+                                    pacStudent.GetComponent<Animator>().ResetTrigger("UpWalkTrigger");
+                                    particleObject.SetActive(true);
+                                    audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
+                                    particles.Play();
+                                }
+                                else
+                                {
+                                    doMove = false;
+                                    pacStudent.GetComponent<Animator>().enabled = false;
+                                    audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
+                                    particles.Stop(true);
+                                }
+                            }
+                        }
+                    }
+                }
+                break;
+            case 'w':
+                if (pacStudent.transform.position.y * -1 - 1 > -15 && pacStudent.transform.position.y * -1 - 1 < 15)
+                {
+                    float xCoordinate = pacStudent.transform.position.x;
+                    float yCoordinate = pacStudent.transform.position.y + 1;
+                    for (int y = 14; y > -15; y--)
+                    {
+                        for (int x = -13; x < 15; x++)
+                        {
+                            if (xCoordinate == x && yCoordinate == y)
+                            {
+
+                                if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
+                                    levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
+                                {
+                                    doMove = true;
+                                    pacStudent.GetComponent<Animator>().enabled = true;
+                                    pacStudent.GetComponent<Animator>().ResetTrigger("RightWalkTrigger");
+                                    pacStudent.GetComponent<Animator>().ResetTrigger("DownWalkTrigger");
+                                    pacStudent.GetComponent<Animator>().ResetTrigger("LeftWalkTrigger");
+                                    pacStudent.GetComponent<Animator>().SetTrigger("UpWalkTrigger");
+                                    particleObject.SetActive(true);
+                                    audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
+                                    particles.Play();
+                                }
+                                else
+                                {
+                                    doMove = false;
+                                    pacStudent.GetComponent<Animator>().enabled = false;
+                                    audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
+                                    particles.Stop(true);
+                                }
+                            }
+                        }
+                    }
+                }
+                break;
+        }
+    }
+    private void mover(char c)
+    {
+        switch (c)
+        {
+            case 'd':
+                if (tweener.TweenExists(pacStudent.transform) == false)
+                {
+                    if (doMove == true)
+                        tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(pacStudent.transform.position.x + 1, pacStudent.transform.position.y, 0.0f), 0.2f);
+                }
+                break;
+            case 's':
+                if (tweener.TweenExists(pacStudent.transform) == false)
+                {
+                    if (doMove == true)
+                        tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(pacStudent.transform.position.x, pacStudent.transform.position.y - 1, 0.0f), 0.2f);
+                }
+                break;
+            case 'a':
+                if (tweener.TweenExists(pacStudent.transform) == false)
+                {
+                    if (doMove == true)
+                        tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(pacStudent.transform.position.x - 1, pacStudent.transform.position.y, 0.0f), 0.2f);
+                }
+                break;
+            case 'w':
+                if (tweener.TweenExists(pacStudent.transform) == false)
+                {
+                    if (doMove == true)
+                        tweener.AddTween(pacStudent.transform, pacStudent.transform.position, new Vector3(pacStudent.transform.position.x, pacStudent.transform.position.y + 1, 0.0f), 0.2f);
+                }
+                break;
+        }
+    }
+    private void audioSwitch(int i)
+    {
+        if (i == 5 || i == 6)
+        {
+            sound.enabled = true;
+            sound.clip = clip1;
+            sound.Play();
+        }
+        else if (i == 0)
+        {
+            sound.enabled = true;
+            sound.clip = clip2;
+            sound.Play();
+        }
+        else
+        {
+            StartCoroutine(audioSwitch2());
+        }
+    }
+    private IEnumerator audioSwitch2()
+    {
+        sound.clip = clip3;
+        if (sound.enabled == true && z == 0)
+        {
+            z++;
+            sound.Play();
+            yield return new WaitWhile(() => sound.isPlaying);
+            sound.enabled = false;
+            z = 0;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "wall")
+        {
+            doMove = false;
+            if (transform.rotation.x == 0)
+                transform.position = new Vector3(transform.position.x - 1, transform.position.y, 0);
         }
     }
 }
