@@ -10,6 +10,7 @@ public class PacStudentController : MonoBehaviour
     private char lastInput;
     private char currentInput;
     bool doMove = false;
+    Animator animator;
     int[,] levelMap =
     {
         {1,2,2,2,2,2,2,2,2,2,2,2,2,7,7,2,2,2,2,2,2,2,2,2,2,2,2,1},
@@ -43,14 +44,13 @@ public class PacStudentController : MonoBehaviour
         {1,2,2,2,2,2,2,2,2,2,2,2,2,7,7,2,2,2,2,2,2,2,2,2,2,2,2,1},
     };
 
-    int[][] superArray = new int[][]
-    {
-        new int[] {1},
-    };
+
     // Start is called before the first frame update
     void Start()
     {
         tweener = GetComponent<Tweener>();
+        pacStudent.GetComponent<Animator>().enabled = false;
+
     }
 
     // Update is called once per frame
@@ -79,8 +79,7 @@ public class PacStudentController : MonoBehaviour
 
         inputter(lastInput);
         obstacleCheck(currentInput);
-        Debug.Log(lastInput);
-        Debug.Log(currentInput);
+        //Debug.Log(currentInput);
 
         switch (currentInput) { 
             case 'd':
@@ -150,6 +149,7 @@ public class PacStudentController : MonoBehaviour
                             {
                                 if (xCoordinate == x && yCoordinate == y)
                                 {
+                                    //Debug.Log(levelMap[((int)y * -1 + 14), ((int)x + 13)]);
                                     if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
                                         levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
                                         levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
@@ -169,7 +169,7 @@ public class PacStudentController : MonoBehaviour
                         float yCoordinate = pacStudent.transform.position.y;
                         for (int y = 14; y > -15; y--)
                         {
-                            for (int x = -13; x < 15; x++)
+                            for (int x = -13; x < 14; x++)
                             {
                                 if (xCoordinate == x && yCoordinate == y)
                                 {
@@ -185,8 +185,9 @@ public class PacStudentController : MonoBehaviour
                     }
                     break;
                 case 'w':
-                    if (pacStudent.transform.position.y * 1 - 1 > -14 && pacStudent.transform.position.y * 1 - 1 < 15)
+                    if (pacStudent.transform.position.y * - 1 - 1 > -14 && pacStudent.transform.position.y * - 1 - 1 < 15)
                     {
+                        Debug.Log("hit");
                         float xCoordinate = pacStudent.transform.position.x;
                         float yCoordinate = pacStudent.transform.position.y + 1;
                         for (int y = 14; y > -15; y--)
@@ -195,6 +196,7 @@ public class PacStudentController : MonoBehaviour
                             {
                                 if (xCoordinate == x && yCoordinate == y)
                                 {
+                                    Debug.Log(levelMap[((int)y * -1 + 14), ((int)x + 13)]);
                                     if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
                                         levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
                                         levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
@@ -229,10 +231,16 @@ public class PacStudentController : MonoBehaviour
                                         levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
                                     {
                                         doMove = true;
+                                        pacStudent.GetComponent<Animator>().enabled = true;
+                                        pacStudent.GetComponent<Animator>().SetTrigger("RightWalkTrigger");
+                                        pacStudent.GetComponent<Animator>().ResetTrigger("DownWalkTrigger");
+                                        pacStudent.GetComponent<Animator>().ResetTrigger("LeftWalkTrigger");
+                                        pacStudent.GetComponent<Animator>().ResetTrigger("UpWalkTrigger");
                                     }
                                     else
                                     {
                                         doMove = false;
+                                        pacStudent.GetComponent<Animator>().enabled = false;
                                     }
                                 }
                             }
@@ -255,10 +263,16 @@ public class PacStudentController : MonoBehaviour
                                         levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
                                     {
                                         doMove = true;
+                                        pacStudent.GetComponent<Animator>().enabled = true;
+                                        pacStudent.GetComponent<Animator>().ResetTrigger("RightWalkTrigger");
+                                        pacStudent.GetComponent<Animator>().SetTrigger("DownWalkTrigger");
+                                        pacStudent.GetComponent<Animator>().ResetTrigger("LeftWalkTrigger");
+                                        pacStudent.GetComponent<Animator>().ResetTrigger("UpWalkTrigger");
                                     }
                                     else
                                     {
                                         doMove = false;
+                                        pacStudent.GetComponent<Animator>().enabled = false;
                                     }
                                 }
                             }
@@ -281,10 +295,16 @@ public class PacStudentController : MonoBehaviour
                                         levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
                                     {
                                         doMove = true;
+                                        pacStudent.GetComponent<Animator>().enabled = true;
+                                        pacStudent.GetComponent<Animator>().ResetTrigger("RightWalkTrigger");
+                                        pacStudent.GetComponent<Animator>().ResetTrigger("DownWalkTrigger");
+                                        pacStudent.GetComponent<Animator>().SetTrigger("LeftWalkTrigger");
+                                        pacStudent.GetComponent<Animator>().ResetTrigger("UpWalkTrigger");
                                     }
                                     else
                                     {
                                         doMove = false;
+                                        pacStudent.GetComponent<Animator>().enabled = false;
                                     }
                                 }
                             }
@@ -292,7 +312,7 @@ public class PacStudentController : MonoBehaviour
                     }
                     break;
                 case 'w':
-                    if (pacStudent.transform.position.y * 1 - 1 > -14 && pacStudent.transform.position.y * 1 - 1 < 15)
+                    if (pacStudent.transform.position.y * - 1 - 1 > -14 && pacStudent.transform.position.y * - 1 - 1 < 15)
                     {
                         float xCoordinate = pacStudent.transform.position.x;
                         float yCoordinate = pacStudent.transform.position.y + 1;
@@ -302,15 +322,23 @@ public class PacStudentController : MonoBehaviour
                             {
                                 if (xCoordinate == x && yCoordinate == y)
                                 {
+                                    //Debug.Log(levelMap[((int)y * -1 + 14), ((int)x + 13)]);
+
                                     if (levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 5 ||
                                         levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 6 ||
                                         levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13] == 0)
                                     {
                                         doMove = true;
+                                        pacStudent.GetComponent<Animator>().enabled = true;
+                                        pacStudent.GetComponent<Animator>().ResetTrigger("RightWalkTrigger");
+                                        pacStudent.GetComponent<Animator>().ResetTrigger("DownWalkTrigger");
+                                        pacStudent.GetComponent<Animator>().ResetTrigger("LeftWalkTrigger");
+                                        pacStudent.GetComponent<Animator>().SetTrigger("UpWalkTrigger");
                                     }
                                     else
                                     {
                                         doMove = false;
+                                        pacStudent.GetComponent<Animator>().enabled = false;
                                     }
                                 }
                             }
