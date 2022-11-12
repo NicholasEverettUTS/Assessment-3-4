@@ -20,6 +20,7 @@ public class PacStudentController : MonoBehaviour
     Animator animator;
     private ParticleSystem particles;
     private GameObject particleObject;
+    int z = 0;
     int[,] levelMap =
     {
         {1,2,2,2,2,2,2,2,2,2,2,2,2,7,7,2,2,2,2,2,2,2,2,2,2,2,2,1},
@@ -380,21 +381,34 @@ public class PacStudentController : MonoBehaviour
         }
         void audioSwitch(int i)
         {
-            Debug.Log("hit");
             if (i == 5 || i == 6)
             {
                 sound.enabled = true;
-                sound.clip = clip2;
+                sound.clip = clip1;
+                sound.Play();
             }
             else if(i == 0)
             {
                 sound.enabled = true;
                 sound.clip = clip2;
+                sound.Play();
             }
             else
-            {
-                sound.clip = clip2;
+            {         
+                StartCoroutine(audioSwitch2());
+            }
+        }
+
+        IEnumerator audioSwitch2()
+        {
+            sound.clip = clip3;
+            if (sound.enabled == true && z == 0){
+                z++;
+                Debug.Log("hit");
+                sound.Play();
+                yield return new WaitWhile(() => sound.isPlaying);
                 sound.enabled = false;
+                z = 0;
             }
         }
     }
