@@ -4,49 +4,52 @@ using UnityEngine;
 
 public class Tweener : MonoBehaviour
 {
-    private Tween activeTween;
-    //public Animator animator;
+    //private Tween activeTween;
+    private List<Tween> activeTweens = new List<Tween>();
     // Start is called before the first frame update
     void Start()
     {
-        //animator.SetTrigger("RotationTrigger");
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (activeTween != null)
+        if (activeTweens != null)
         {
-            float distance = Vector3.Distance(activeTween.Target.position, activeTween.EndPos);
-            float timePassed = Time.time - activeTween.StartTime;
-            if (distance > 0.1f)
+            for (int i = 0; i < activeTweens.Count; i++)
             {
-                float thisTime = timePassed / activeTween.Duration;
-                activeTween.Target.position = Vector3.Lerp(activeTween.StartPos, activeTween.EndPos, thisTime);
-            }
-            else if (distance <= 0.1f)
-
-
-
-            {
-                //animator.SetTrigger("RotationTrigger");
-                activeTween.Target.position = activeTween.EndPos;
-                activeTween = null;
+                float distance = Vector3.Distance(activeTweens[i].Target.position, activeTweens[i].EndPos);
+                float timePassed = Time.time - activeTweens[i].StartTime;
+                if (distance > 0.1f)
+                {
+                    float thisTime = timePassed / activeTweens[i].Duration;
+                    activeTweens[i].Target.position = Vector3.Lerp(activeTweens[i].StartPos, activeTweens[i].EndPos, thisTime);
+                }
+                else if (distance <= 0.1f)
+                {
+                    activeTweens[i].Target.position = activeTweens[i].EndPos;
+                    activeTweens.RemoveAt(i);
+                }
             }
         }
     }
 
-    public void AddTween(Transform targetObject, Vector3 startPos, Vector3 endPos, float duration)
+    public bool AddTween(Transform targetObject, Vector3 startPos, Vector3 endPos, float duration)
     {
-        //animator.SetTrigger("RotationTrigger");
-        activeTween = new Tween(targetObject, startPos, endPos, Time.time, duration);
+        if (TweenExists(targetObject) == false)
+        {
+            activeTweens.Add(new Tween(targetObject, startPos, endPos, Time.time, duration));
+            return true;
+        }
+        return false;
     }
 
     public bool TweenExists(Transform target)
     {
-        if (activeTween != null)
+        for (int i = 0; i < activeTweens.Count; i++)
         {
-            Transform tweenTarget = activeTween.Target;
+            Transform tweenTarget = activeTweens[i].Target;
             if (tweenTarget == target)
             {
                 return true;
