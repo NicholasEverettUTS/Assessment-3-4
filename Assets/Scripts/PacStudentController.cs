@@ -19,10 +19,10 @@ public class PacStudentController : MonoBehaviour
     bool doMove = false;
     Animator animator;
     private ParticleSystem particles;
-    private ParticleSystem hitWall;
+    //private ParticleSystem hitWall;
     private ParticleSystem deathPartciles;
     private GameObject particleObject;
-    private GameObject hitWallObject;
+    //private GameObject hitWallObject;
     int z = 0;
     int[,] levelMap =
     {
@@ -62,13 +62,12 @@ public class PacStudentController : MonoBehaviour
     void Start()
     {
         particles = pacStudent.transform.GetChild(0).gameObject.GetComponent<ParticleSystem>();
-        hitWall = pacStudent.transform.GetChild(1).gameObject.GetComponent<ParticleSystem>();
         particles.Stop(true);
         //hitWall.Stop(true);
         tweener = GetComponent<Tweener>();
         pacStudent.GetComponent<Animator>().enabled = false;
         particleObject = pacStudent.transform.GetChild(0).gameObject;
-        hitWallObject = pacStudent.transform.GetChild(1).gameObject;
+        //hitWallObject = pacStudent.transform.GetChild(1).gameObject;
        // hitWallObject.SetActive(false);
         sound = pacStudent.GetComponent<AudioSource>();
     }
@@ -200,7 +199,7 @@ public class PacStudentController : MonoBehaviour
     }
     private void obstacleCheck(char c)
     {
-        hitWall.Stop(true);
+        //hitWall.Stop(true);
         switch (c)
         {
             case 'd':
@@ -235,7 +234,6 @@ public class PacStudentController : MonoBehaviour
                                     audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
                                     pacStudent.GetComponent<Animator>().enabled = false;
                                     particles.Stop(true);
-                                    hitWallObject.SetActive(true);
                                     //hitWall.Play();
                                 }
                             }
@@ -450,7 +448,7 @@ public class PacStudentController : MonoBehaviour
 
     //}
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         Debug.Log("hit");
         if (other.gameObject.tag == "wall")
