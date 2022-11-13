@@ -32,7 +32,7 @@ public class CherryController : MonoBehaviour
         yield return new WaitForSeconds(10);
         rand = UnityEngine.Random.Range(-20, 20);
         num = (int)Mathf.Sqrt((float)(radius * radius) - (float)(rand * rand));
-        rand2 = UnityEngine.Random.Range(0, 1);
+        rand2 = UnityEngine.Random.Range(0, 2);
         if (rand2 == 1)
         {
             num = num * -1;

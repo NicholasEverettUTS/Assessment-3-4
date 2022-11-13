@@ -19,7 +19,10 @@ public class PacStudentController : MonoBehaviour
     bool doMove = false;
     Animator animator;
     private ParticleSystem particles;
+    private ParticleSystem hitWall;
+    private ParticleSystem deathPartciles;
     private GameObject particleObject;
+    private GameObject hitWallObject;
     int z = 0;
     int[,] levelMap =
     {
@@ -58,11 +61,15 @@ public class PacStudentController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        particles = pacStudent.transform.GetChild(0).gameObject.GetComponent<ParticleSystem>();
+        hitWall = pacStudent.transform.GetChild(1).gameObject.GetComponent<ParticleSystem>();
+        particles.Stop(true);
+        //hitWall.Stop(true);
         tweener = GetComponent<Tweener>();
         pacStudent.GetComponent<Animator>().enabled = false;
         particleObject = pacStudent.transform.GetChild(0).gameObject;
-        particles = pacStudent.transform.GetChild(0).gameObject.GetComponent<ParticleSystem>();
-        particles.Stop(true);
+        hitWallObject = pacStudent.transform.GetChild(1).gameObject;
+       // hitWallObject.SetActive(false);
         sound = pacStudent.GetComponent<AudioSource>();
     }
 
@@ -89,6 +96,7 @@ public class PacStudentController : MonoBehaviour
             lastInput = 'w';
         }
 
+        Debug.Log(doMove);
         inputter(lastInput);
         obstacleCheck(currentInput);
         mover(currentInput);
@@ -192,6 +200,7 @@ public class PacStudentController : MonoBehaviour
     }
     private void obstacleCheck(char c)
     {
+        hitWall.Stop(true);
         switch (c)
         {
             case 'd':
@@ -222,9 +231,12 @@ public class PacStudentController : MonoBehaviour
                                 else
                                 {
                                     doMove = false;
+                                    //doMoveCheck();
                                     audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
                                     pacStudent.GetComponent<Animator>().enabled = false;
                                     particles.Stop(true);
+                                    hitWallObject.SetActive(true);
+                                    //hitWall.Play();
                                 }
                             }
                         }
@@ -254,14 +266,18 @@ public class PacStudentController : MonoBehaviour
                                     pacStudent.GetComponent<Animator>().ResetTrigger("UpWalkTrigger");
                                     particleObject.SetActive(true);
                                     audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
+                                    //hitWallObject.SetActive(true);
                                     particles.Play();
                                 }
                                 else
                                 {
                                     doMove = false;
+                                    //doMoveCheck();
                                     pacStudent.GetComponent<Animator>().enabled = false;
                                     audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
                                     particles.Stop(true);
+                                    //hitWallObject.SetActive(true);
+                                    //hitWall.Play();
                                 }
                             }
                         }
@@ -296,9 +312,12 @@ public class PacStudentController : MonoBehaviour
                                 else
                                 {
                                     doMove = false;
+                                    //doMoveCheck();
                                     pacStudent.GetComponent<Animator>().enabled = false;
                                     audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
                                     particles.Stop(true);
+                                    //hitWallObject.SetActive(true);
+                                    //hitWall.Play();
                                 }
                             }
                         }
@@ -334,9 +353,12 @@ public class PacStudentController : MonoBehaviour
                                 else
                                 {
                                     doMove = false;
+                                    //doMoveCheck();
                                     pacStudent.GetComponent<Animator>().enabled = false;
                                     audioSwitch(levelMap[(int)yCoordinate * -1 + 14, (int)xCoordinate + 13]);
                                     particles.Stop(true);
+                                    //hitWallObject.SetActive(true);
+                                    //hitWall.Play();
                                 }
                             }
                         }
@@ -411,13 +433,55 @@ public class PacStudentController : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    //private void doMoveCheck()
+    //{
+        //doMove = false;
+        //Debug.Log("hit");
+        //hitWall.Play();
+        //if (doMove == false)
+        //{
+            //hitWall.Stop(false);
+            //will play und and partciles regardless of whether or not a collision has occured (with my current design,
+            //collisions with walls should be impossible.
+            //audioSwitch(4);
+            //hitWall.Play();
+            //hitWall.Stop(true);
+        //}
+
+    //}
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(collision.gameObject.tag == "wall")
+        Debug.Log("hit");
+        if (other.gameObject.tag == "wall")
         {
-            doMove = false;
-            if (transform.rotation.x == 0)
-                transform.position = new Vector3(transform.position.x - 1, transform.position.y, 0);
+            //doMove = false;
+            Debug.Log("hit");
+
+            switch (currentInput)
+            {
+                case 'd':
+                    transform.position = new Vector3(transform.position.x - 1, transform.position.y, 0);
+                    break;
+                case 's':
+                    transform.position = new Vector3(transform.position.x, transform.position.y + 1, 0);
+                    break;
+                case 'a':
+                    transform.position = new Vector3(transform.position.x - 1, transform.position.y, 0);
+                    break;
+                case 'w':
+                    transform.position = new Vector3(transform.position.x - 1, transform.position.y, 0);
+                    break;
+            }
+            //doMoveCheck();
         }
+
+        if (other.gameObject.tag == "teleport")
+        {
+            Debug.Log("hit");
+            this.transform.position = new Vector3(14f, 0f, 0f);
+        }
+        else if (other.gameObject.tag == "teleport2")
+            this.transform.position = new Vector3(-13f, 0f, 0f);
     }
 }
