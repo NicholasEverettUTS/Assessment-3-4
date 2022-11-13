@@ -95,7 +95,6 @@ public class PacStudentController : MonoBehaviour
             lastInput = 'w';
         }
 
-        Debug.Log(doMove);
         inputter(lastInput);
         obstacleCheck(currentInput);
         mover(currentInput);
